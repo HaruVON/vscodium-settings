@@ -1,0 +1,936 @@
+Codeium.codeium: '{"codeium.installationID":"Ubj7KzVGZXBhwUFReJQ43sjToZXcdhkw","codeium.hasInstalledKey":true,"codeium.hasShownFirstTimeAuthModalKey":true,"codeium.hasOpenedUniversityKey":true,"codeium.usage_codeiumCommand_v3":1,"codeium.shown_codeiumCommand_v3":2}'
+cschlosser.doxdocgen: '{"doxdocgen_version":"1.4.0"}'
+DanielSanMedium.dscodegpt: "{\"apiKeyFirstTime\":\"true\",\"history\":\"\\n                            \
+  \\n                            \\n    <div
+  class=\\\"initialTemplate\\\">\\n      <div class=\\\"wrapper
+  ai\\\">\\n        <div class=\\\"chat\\\">\\n          <div class=\\\"profile
+  chat_header\\\">\\n            <div class=\\\"avatar\\\"><svg width=\\\"24\\\"
+  height=\\\"24\\\" viewBox=\\\"0 0 16 16\\\"
+  xmlns=\\\"http://www.w3.org/2000/svg\\\" fill=\\\"currentColor\\\"><path
+  fill-rule=\\\"evenodd\\\" clip-rule=\\\"evenodd\\\" d=\\\"M8.48
+  4h4l.5.5v2.03h.52l.5.5V8l-.5.5h-.52v3l-.5.5H9.36l-2.5 2.76L6
+  14.4V12H3.5l-.5-.64V8.5h-.5L2 8v-.97l.5-.5H3V4.36L3.53 4h4V2.86A1 1 0 0 1 7
+  2a1 1 0 0 1 2 0 1 1 0 0 1-.52.83V4zM12
+  8V5H4v5.86l2.5.14H7v2.19l1.8-2.04.35-.15H12V8zm-2.12.51a2.71 2.71 0 0
+  1-1.37.74v-.01a2.71 2.71 0 0 1-2.42-.74l-.7.71c.34.34.745.608
+  1.19.79.45.188.932.286 1.42.29a3.7 3.7 0 0 0 2.58-1.07l-.7-.71zM6.49
+  6.5h-1v1h1v-1zm3
+  0h1v1h-1v-1z\\\"></path></svg></div>\\n            <span>CodeGPT</span>\\n          \
+  </div>\\n          <h3>Welcome to CodeGPT – Your Ultimate Coding
+  Companion!</h3>\\n          <p>\\n          Empowering developers with
+  generative AI for smart conversations and seamless code autocomplete across
+  various IDEs and text editors.\\n          </p>\\n          <strong>Getting
+  Started</strong>\\n          <p>Select a section of code and choose one of the
+  following options:</p>\\n          <div class=\\\"flex
+  gap-2\\\">\\n            <li><button class=\\\"link-btn text-xxs\\\">✨ Code
+  Explanation</button></li>\\n            <li><button class=\\\"link-btn
+  text-xxs\\\">✨ Bug Detection</button></li>\\n            <li><button
+  class=\\\"link-btn text-xxs\\\">✨ Unit
+  Tests</button></li>\\n          </div>\\n          <p>Documentation:</p>\\n          \
+  <div class=\\\"flex gap-2\\\">\\n              <a class=\\\"link-btn
+  text-xxs\\\" target=\\\"_blank\\\"
+  href=\\\"https://docs.codegpt.co/docs/category/ai-providers\\\"
+  title=\\\"https://docs.codegpt.co/docs/category/ai-providers\\\">\\n                \
+  🔗 Select AI Provider\\n              </a>\\n              <a
+  class=\\\"link-btn text-xxs\\\" target=\\\"_blank\\\"
+  href=\\\"https://docs.codegpt.co/docs/tutorial-features/chat_code_gpt\\\"
+  title=\\\"https://docs.codegpt.co/docs/tutorial-features/chat_code_gpt\\\">\\\
+  n                🔗 Chat Mode\\n              </a>\\n              <a
+  class=\\\"link-btn text-xxs\\\" target=\\\"_blank\\\"
+  href=\\\"https://docs.codegpt.co/docs/tutorial-features/code_autocompletion\\\
+  \"
+  title=\\\"https://docs.codegpt.co/docs/tutorial-features/code_autocompletion\\\
+  \">\\n                🔗 Autocomplete
+  Code\\n              </a>\\n          </div>\\n          <p>Preferences:</p>\
+  \\n          <div class=\\\"flex gap-2\\\">\\n              <button
+  class=\\\"link-btn text-xxs\\\" id=\\\"btn-settings\\\">\\n                ⚙️
+  settings\\n              </button>\\n          </div>\\n        </div>\\n    \
+  </div>\\n  </div>\\n                        \\n                        \",\"a\
+  utoSelect\":true,\"autocompleteEnabled\":true,\"autocompleteProvider\":\"Code\
+  GPT Plus\",\"autocompleteModel\":\"CodeGPT
+  Pro\",\"autocompleteMaxTokens\":300,\"autocompleteSuggestionDelay\":600,\"alr\
+  eadySyncedSqlite.\":true,\"lastFullText\":\"# current machine's name,
+  optional; it can be used to filter settings or in the commit
+  message\\nhostname: \\\"\\\"\\n# more details at
+  https://github.com/zokugun/vscode-sync-settings/blob/master/docs/hostname.md\
+  \\n\\n# selected profile, required\\nprofile: main\\n\\n# repository to sync
+  the settings with, required\\nrepository:\\n  # repository's type, required
+  (dummy: no sync)\\n  #type: dummy\\n  type: git\\n  url:
+  git@github.com:HaruVON/vscodium-settings.git\\n  branch: main\\n# # how to run
+  commands before and after events at
+  https://github.com/zokugun/vscode-sync-settings/blob/master/docs/hooks.md\\n#
+  hooks:\\n#   post-upload: osascript -e 'display notification \\\"The settings
+  have been uploaded\\\"'\\n\\n\\n# # sync on local file system\\n#
+  repository:\\n#   type: file\\n#   # path of the local directory to sync with,
+  required\\n#   path: ~/Development/settings\\n\\n\\n# # sync on local git\\n#
+  repository:\\n#   type: git\\n#   # path of the local git repository to sync
+  with, required\\n#   path: ~/Development/settings\\n#   # branch to sync on,
+  optional (set to `master` by default)\\n#   branch: master\\n#   # how to
+  personalize the commit messages at
+  https://github.com/zokugun/vscode-sync-settings/blob/master/docs/commit-messa\
+  ges.md\\n\\n\\n# # sync on remote git\\n# repository:\\n#   type: git\\n#   #
+  url of the remote git repository to sync with, required\\n#   url:
+  git@github.com:username/settings.git\\n#   # branch to sync on, optional (set
+  to `master` by default)\\n#   branch: master\\n#   # how to personalize the
+  commit messages at
+  https://github.com/zokugun/vscode-sync-settings/blob/master/docs/commit-messa\
+  ges.md\\n\\n\\n# # sync on remote directory with rsync\\n#
+  repository:\\n#   type: rsync\\n#   # url of the remote directory to sync
+  with, required\\n#   url: server:~/settings\\n#   # shell used by rsync,
+  optional (set to `ssh` by default)\\n#   shell: ssh\\n\\n\\n# # sync on remote
+  directory with webdav\\n# repository:\\n#   type: webdav\\n#   # url of the
+  remote directory, required\\n#   url:
+  http://localhost:9988/webdav/server\\n#   # the username,
+  optional\\n#   username: webdav-user\\n#   # the password,
+  optional\\n#   password: pa$$w0rd!\\n#   # all options available at
+  https://github.com/zokugun/vscode-sync-settings/blob/master/docs/webdav.md\\n\
+  \",\"codegpt.sidebarShown\":true}"
+Dart-Code.dart-code: '{"experiement-lsp-default":59,"lastSeenVersion":"3.25.1","packageLastCheckedForUpdates:devtools":1628801833930,"hasPrompted.use_recommended_settings":true,"devToolsNotificationLastShown":1628801941779,"experiement-lsp-default-hasActivated":true,"experiment-sdkDaps":87,"experiment-sdkDaps-hasActivated":true}'
+eamodio.gitlens: '{"gitlensVersion":"10.2.3","gitlens:version":"19.0.1","gitlens:synced:version":"19.0.1","gitlens:premium:subscription":{"v":1,"data":{"plan":{"actual":{"id":"community","name":"GitLens
+  Community","bundle":false,"cancelled":false,"trialReactivationCount":0,"startedOn":"2023-01-07T03:11:38.251Z"},"effective":{"id":"community","name":"GitLens
+  Community","bundle":false,"cancelled":false,"trialReactivationCount":0,"startedOn":"2023-01-07T03:11:38.251Z"}},"state":0,"previewTrial":{"startedOn":"1970-01-01T00:00:00.000Z","expiresOn":"1970-01-01T00:00:00.000Z"}}},"gitlens:plus:migratedAuthentication":true,"gitlens:home:status:pinned":true,"gitlens:repoVisibility":[["c:/Users/dswif/iCloudDrive/iCloud~md~obsidian/notes",{"visibility":"private","timestamp":1710060797016,"remotesHash":"github.com/HaruVON/notes"}],["c:/Users/dswif/iCloudDrive/iCloud~md~obsidian/notes/obsidian-gym-log",{"visibility":"public","timestamp":1710060828873,"remotesHash":"github.com/HaruVON/obsidian-gym-log"}],["c:/Users/dswif/.config/wezterm",{"visibility":"public","timestamp":1757106784954,"remotesHash":"github.com/KevinSilvester/wezterm-config"}]],"gitlens:product:config":{"data":{"promos":[{"key":"happybdaygk25","code":"HAPPYBDAYGK","states":[0,1,2,3,4,5],"expiresOn":1750748340000,"startsOn":1749538740000,"content":{"quickpick":{"detail":"$(star-full)
+  GK Birthday Sale: Save 60% on GitLens Pro"},"webview":{"info":{"html":"<b>GK
+  Birthday Sale: Save 60%</b> on GitLens Pro"},"link":{"html":"<b>GK Birthday
+  Sale: Save 60%</b> on GitLens Pro","title":"Upgrade now and save 60% on
+  GitLens
+  Pro"}}}},{"key":"gitsmarter25","code":"GITSMARTER25","states":[0,1,2,3,4,5],"expiresOn":1748847540000,"startsOn":1747637940000,"content":{"quickpick":{"detail":"$(star-full)
+  Limited-time: Save 60% on GitLens
+  Pro"},"webview":{"info":{"html":"<b>Limited-time: Save 60%</b> on GitLens
+  Pro"},"link":{"html":"<b>Limited-time: Save 60%</b> on GitLens
+  Pro","title":"Upgrade now and save more than 60% on GitLens
+  Pro"}}}},{"key":"pro50","states":[0,1,2,3,4,5],"locations":["home","account","badge","gate"],"content":{"quickpick":{"detail":"$(star-full)
+  Save 50% on GitLens Pro"},"webview":{"info":{"html":"<b>Save 50%</b> on
+  GitLens Pro"},"link":{"html":"<b>Save 50%</b> on GitLens Pro","title":"Upgrade
+  now and save 50% on GitLens
+  Pro"}}}}]},"v":1,"timestamp":1750902762528},"gitlens:gk:cli:install":{"status":"completed","attempts":5,"version":"3.1.70"},"gitlens:gk:cli:path":"c:\\Users\\dswif\\AppData\\Roaming\\Code\\User\\globalStorage\\eamodio.gitlens","gitlens:gk:cli:corePath":"C:\\Users\\dswif\\AppData\\Local\\GitKrakenCLI\\gk.exe","gitlens:settings:migrated":["graph.details.location:auto","terminalLinks.showIn:enum","ai.model:unpin-passive-copilot","views.legacy:hidden"],"gitlens:onboarding:state":{"items":{},"migratedVersion":"17.9.0"},"gitlens:integrations:migrated:cloudOnly":true,"gitlens:featureFlags:flags":{"glensWelcomeTitleVariant":false},"gitlens:usages":{"action:gitlens.mcp.bundledMcpDefinitionProvided:happened":{"count":3,"firstUsedAt":1786387376509,"lastUsedAt":1786662426650}}}'
+golang.go: '{"go.extensionVersion":"0.40.0","latestGoVersions":{"timestamp":1706206687265,"goVersions":[{"binpath":"golang.org/dl/go1.21.6","label":"Go
+  1.21.6","available":false,"description":"download
+  golang.org/dl/go1.21.6"},{"binpath":"golang.org/dl/go1.20.13","label":"Go
+  1.20.13","available":false,"description":"download
+  golang.org/dl/go1.20.13"}]},"telemetryStartTime":"2023-11-19T22:58:50.569Z","goplsSurveyConfig":"{\"prompt\":true,\"promptThisMonth\":false,\"dateComputedPromptThisMonth\":\"2024-01-19T23:12:23.511Z\"}"}'
+ms-azuretools.vscode-containers: '{"vscode-containers.activity.overallnoedit":{"lastSession":1786387268920,"currentMonthSessions":1,"totalSessions":1},"containers.settings.migrated":true,"vscode-containers.activity.overall":{"lastSession":1786387269051,"currentMonthSessions":1,"totalSessions":1},"VSCode.ABExp.FeatureData":{"features":["config.chat.subagentTool.customAgents","config.github.copilot.nextEditSuggestions.enabled","config.inlineChat.renderMode","config.sessions.chat.localAgent.enabledcf","copilotappmodcontextmenuenabled","copilotappmodproblemsviewenabledcf","copilotchat.disableReplaceStringHealing","copilotchat.hiddenModelBEditTool","copilotsearchagentenabled","copilottransparenttokenrefresh","copilot_ci","cveremediatoragentenabled","dynamic_mcpcf","extensionEnabledApiProposalsFallback","featureflag-23-1","github.copilot.chat.agentDebugLog.enabled","github.copilot.chat.agentDebugLog.fileLogging.enabled","ideenablecopilotnes","ideenablecopilotsemanticsearch","javaCompletionSampling","livesharecontinuousaa","mindaroBinariesVersion","new_test","registerNuGetMcpServerEnabled","suggestNativePreview","test_t","workspace.embeddingIndex.automaticReindexingDelay"],"assignmentContext":"vsliv368:30146709;binariesv615:30325510;f8hc8238:30694864;copilot_t_ci:31333650;6518g693:31463988;aj953862:31281341;42190218_ostrepl:31403339;56b7f661:31457055;ec5jj548:31422691;cp_cls_t_966_ss:31526232;cp_cls_t_1081:31454832;test_treatment2:31471001;ei9d7968:31496641;ghj88844:31499326;cp_cls_t_1082:31535311;logging_enabled_new:31498466;jb_cp_cls_t_632:31543129;ha629193:31508444;jbcp_cls_pctr_t:31531130;61138546:31518536;cp_intellij_t_nes:31548657;ihg5j128:31534457;allow-none:31555437;8hc4g144:31558143;treatment-23-1:31555779;unuse_dynamic_mcp:31555281;","configs":[{"Id":"vscode","Parameters":{"config.chat.subagentTool.customAgents":true,"config.github.copilot.nextEditSuggestions.enabled":true,"config.inlineChat.renderMode":"zone","config.sessions.chat.localAgent.enabled":false,"copilotappmodcontextmenuenabled":true,"copilotappmodproblemsviewenabled":false,"copilotchat.disableReplaceStringHealing":true,"copilotchat.hiddenModelBEditTool":"only_replace_string","copilotsearchagentenabled":true,"copilottransparenttokenrefresh":true,"copilot_ci":true,"cveremediatoragentenabled":true,"dynamic_mcp":false,"extensionEnabledApiProposalsFallback":"none","featureflag-23-1":true,"github.copilot.chat.agentDebugLog.enabled":true,"github.copilot.chat.agentDebugLog.fileLogging.enabled":true,"ideenablecopilotnes":true,"ideenablecopilotsemanticsearch":true,"javaCompletionSampling":true,"livesharecontinuousaa":true,"mindaroBinariesVersion":"1.0.20210615.1","new_test":true,"registerNuGetMcpServerEnabled":true,"suggestNativePreview":true,"test_t":"cindytest","workspace.embeddingIndex.automaticReindexingDelay":100000000}}]}}'
+ms-azuretools.vscode-docker: '{"docker.installIdHash":"4092edff39775087678b20b9674ceb67c7bedff1ebafe44c9bb964526e235248","VSCode.ABExp.FeatureData":{"features":["account-aacf","javaCompletionSampling","livesharecontinuousaa","mindaroBinariesVersion","msEntraShowUpdateUserFlow","portForwardingServiceEnabled-development","portForwardingServiceEnabled-production","portForwardingServiceEnabled-staging","shouldUseGrpcService","vscode-docker.aatest"],"assignmentContext":"vsliv368:30146709;vscode-docker_aaflight:30153983;vspor879:30202332;vspor708:30202333;vspor363:30204092;binariesv615:30325510;vsaa593cf:30376535;c4g48928:30535728;f8hc8238:30694864;6074i472:31201624;","configs":[{"Id":"vscode","Parameters":{"account-aa":false,"javaCompletionSampling":true,"livesharecontinuousaa":true,"mindaroBinariesVersion":"1.0.20210615.1","msEntraShowUpdateUserFlow":true,"portForwardingServiceEnabled-development":true,"portForwardingServiceEnabled-production":true,"portForwardingServiceEnabled-staging":true,"shouldUseGrpcService":true,"vscode-docker.aatest":true}}]},"vscode-docker.activity.overall":{"lastSession":1736274769988,"currentMonthSessions":1,"totalSessions":10},"vscode-docker.activity.overallnoedit":{"lastSession":1736274769945,"currentMonthSessions":1,"totalSessions":6},"isRegistryMigrated":true}'
+ms-python.debugpy: '{"PYTHON_GLOBAL_STORAGE_KEYS":[{"key":"PYTHON_EXTENSION_GLOBAL_STORAGE_KEYS","defaultValue":[]}]}'
+ms-python.python: "{\"EXPERIMENT_STORAGE_KEY\":[{\"name\":\"CollectLSRequestTim\
+  ing -
+  experiment\",\"salt\":\"CollectLSRequestTiming\",\"min\":0,\"max\":10},{\"name\
+  \":\"CollectLSRequestTiming -
+  control\",\"salt\":\"CollectLSRequestTiming\",\"min\":10,\"max\":100},{\"name\
+  \":\"CollectNodeLSRequestTiming -
+  experiment\",\"salt\":\"CollectNodeLSRequestTiming\",\"min\":0,\"max\":100},{\
+  \"name\":\"CollectNodeLSRequestTiming -
+  control\",\"salt\":\"CollectNodeLSRequestTiming\",\"min\":0,\"max\":0},{\"name\
+  \":\"DeprecatePythonPath -
+  experiment\",\"salt\":\"DeprecatePythonPath\",\"min\":0,\"max\":20},{\"name\":\
+  \"DeprecatePythonPath -
+  control\",\"salt\":\"DeprecatePythonPath\",\"min\":80,\"max\":100}],\"IS_EXPE\
+  RIMENTS_STORAGE_VALID_KEY\":{\"data\":true,\"expiry\":1620058397188},\"INTERP\
+  RETERS_CACHE_v3_CondaEnvFileService\":[],\"INTERPRETERS_CACHE_v3_VirtualEnvSe\
+  rvice\":[],\"WINDOWS_STORE_INTERPRETER_HASH_C:\\\\Users\\\\dswif\\\\AppData\\\
+  \\Local\\\\Microsoft\\\\WindowsApps\\\\python3.exe\":{\"data\":\"c657cb7486ec\
+  5cf5c6b097440d3de2d9c0c4c3cad1fb923906162d5f4635307c5fbe58b489a19d16303bd785b\
+  d8160d454e64e1d782260f7cb04f2bb59171edf\",\"expiry\":1611619481684},\"WINDOWS\
+  _STORE_INTERPRETER_HASH_C:\\\\Users\\\\dswif\\\\AppData\\\\Local\\\\Microsoft\
+  \\\\WindowsApps\\\\python.exe\":{\"data\":\"c657cb7486ec5cf5c6b097440d3de2d9c\
+  0c4c3cad1fb923906162d5f4635307c5fbe58b489a19d16303bd785bd8160d454e64e1d782260\
+  f7cb04f2bb59171edf\",\"expiry\":1611619481684},\"C:\\\\Users\\\\dswif\\\\AppD\
+  ata\\\\Local\\\\Programs\\\\Python\\\\Python37\\\\python.exe.v3\":{\"data\":{\
+  \"architecture\":3,\"path\":\"C:\\\\Users\\\\dswif\\\\AppData\\\\Local\\\\Pro\
+  grams\\\\Python\\\\Python37\\\\python.exe\",\"version\":{\"options\":{\"loose\
+  \":false,\"includePrerelease\":false},\"loose\":false,\"raw\":\"3.7.0-final\",\
+  \"major\":3,\"minor\":7,\"patch\":0,\"prerelease\":[\"final\"],\"build\":[],\
+  \"version\":\"3.7.0-final\"},\"sysPrefix\":\"C:\\\\Users\\\\dswif\\\\AppData\\\
+  \\Local\\\\Programs\\\\Python\\\\Python37\",\"fileHash\":\"c91293a2bac95c7178\
+  bf0524161539db1eda62adc1c288a8108b9bf8fd3c798210eb066776d9203b74dca947c7f6973\
+  af5290d70f7e979afcd9da0d39059ac17\"},\"expiry\":1608685603404},\"INTERPRETERS\
+  _CACHE_v3_CurrentPathService\":[{\"architecture\":3,\"path\":\"C:\\\\Python39\
+  \\\\python.exe\",\"version\":{\"options\":{\"loose\":false,\"includePrerelease\
+  \":false},\"loose\":false,\"raw\":\"3.9.1-final\",\"major\":3,\"minor\":9,\"p\
+  atch\":1,\"prerelease\":[\"final\"],\"build\":[],\"version\":\"3.9.1-final\"},\
+  \"sysVersion\":\"3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC
+  v.1927 64 bit
+  (AMD64)]\",\"sysPrefix\":\"C:\\\\Python39\",\"fileHash\":\"9f1df2ed30c616fd5d\
+  91571627add90e1637e1cd97da57fe0aa3ceec01bd6ba38b9957ad09741569cd6230621046e28\
+  ec7dc3a06ba122560dc896e271ff65d2a\",\"envType\":\"Unknown\"},{\"architecture\
+  \":3,\"path\":\"C:\\\\Python39\\\\python.exe\",\"version\":{\"options\":{\"lo\
+  ose\":false,\"includePrerelease\":false},\"loose\":false,\"raw\":\"3.9.1-final\
+  \",\"major\":3,\"minor\":9,\"patch\":1,\"prerelease\":[\"final\"],\"build\":[\
+  ],\"version\":\"3.9.1-final\"},\"sysVersion\":\"3.9.1 (tags/v3.9.1:1e5d33e,
+  Dec  7 2020, 17:08:21) [MSC v.1927 64 bit
+  (AMD64)]\",\"sysPrefix\":\"C:\\\\Python39\",\"fileHash\":\"9f1df2ed30c616fd5d\
+  91571627add90e1637e1cd97da57fe0aa3ceec01bd6ba38b9957ad09741569cd6230621046e28\
+  ec7dc3a06ba122560dc896e271ff65d2a\",\"envType\":\"Unknown\"},{\"architecture\
+  \":3,\"path\":\"C:\\\\Python39\\\\python.exe\",\"version\":{\"options\":{\"lo\
+  ose\":false,\"includePrerelease\":false},\"loose\":false,\"raw\":\"3.9.1-final\
+  \",\"major\":3,\"minor\":9,\"patch\":1,\"prerelease\":[\"final\"],\"build\":[\
+  ],\"version\":\"3.9.1-final\"},\"sysVersion\":\"3.9.1 (tags/v3.9.1:1e5d33e,
+  Dec  7 2020, 17:08:21) [MSC v.1927 64 bit
+  (AMD64)]\",\"sysPrefix\":\"C:\\\\Python39\",\"fileHash\":\"9f1df2ed30c616fd5d\
+  91571627add90e1637e1cd97da57fe0aa3ceec01bd6ba38b9957ad09741569cd6230621046e28\
+  ec7dc3a06ba122560dc896e271ff65d2a\",\"envType\":\"Unknown\"}],\"SWITCH_LS\":\
+  \"Pylance\",\"C:\\\\Users\\\\dswif\\\\AppData\\\\Local\\\\Programs\\\\Python\\\
+  \\Python37\\\\python.exe.interpreter.Details.v7\":{\"data\":{\"fileHash\":\"c\
+  91293a2bac95c7178bf0524161539db1eda62adc1c288a8108b9bf8fd3c798210eb066776d920\
+  3b74dca947c7f6973af5290d70f7e979afcd9da0d39059ac17\",\"info\":{\"architecture\
+  \":3,\"path\":\"C:\\\\Users\\\\dswif\\\\AppData\\\\Local\\\\Programs\\\\Python\
+  \\\\Python37\\\\python.exe\",\"version\":{\"options\":{\"loose\":false,\"incl\
+  udePrerelease\":false},\"loose\":false,\"raw\":\"3.7.0-final\",\"major\":3,\"\
+  minor\":7,\"patch\":0,\"prerelease\":[\"final\"],\"build\":[],\"version\":\"3\
+  .7.0-final\"},\"sysPrefix\":\"C:\\\\Users\\\\dswif\\\\AppData\\\\Local\\\\Pro\
+  grams\\\\Python\\\\Python37\",\"fileHash\":\"c91293a2bac95c7178bf0524161539db\
+  1eda62adc1c288a8108b9bf8fd3c798210eb066776d9203b74dca947c7f6973af5290d70f7e97\
+  9afcd9da0d39059ac17\",\"companyDisplayName\":\"Python Software
+  Foundation\",\"type\":\"Unknown\",\"displayName\":\"Python 3.7.0
+  64-bit\"}},\"expiry\":1608685603710},\"INTERPRETERS_CACHE_v3_KnownPathsService\
+  \":[{\"architecture\":3,\"path\":\"C:\\\\Python39\\\\python.exe\",\"version\"\
+  :{\"options\":{\"loose\":false,\"includePrerelease\":false},\"loose\":false,\
+  \"raw\":\"3.9.1-final\",\"major\":3,\"minor\":9,\"patch\":1,\"prerelease\":[\
+  \"final\"],\"build\":[],\"version\":\"3.9.1-final\"},\"sysVersion\":\"3.9.1
+  (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit
+  (AMD64)]\",\"sysPrefix\":\"C:\\\\Python39\",\"fileHash\":\"9f1df2ed30c616fd5d\
+  91571627add90e1637e1cd97da57fe0aa3ceec01bd6ba38b9957ad09741569cd6230621046e28\
+  ec7dc3a06ba122560dc896e271ff65d2a\",\"envType\":\"Unknown\"}],\"PipEnvInforma\
+  tion\":[],\"C:\\\\Users\\\\dswif\\\\AppData\\\\Local\\\\Programs\\\\Python\\\
+  \\Python37\\\\python.exe.interpreter.displayName.v7\":{\"data\":{\"displayName\
+  \":\"Python 3.7.0
+  64-bit\",\"hash\":\"c91293a2bac95c7178bf0524161539db1eda62adc1c288a8108b9bf8f\
+  d3c798210eb066776d9203b74dca947c7f6973af5290d70f7e979afcd9da0d39059ac17-54ba2\
+  8cc5fed493e8dbe38cf67de9e79\"},\"expiry\":1608685603696},\"ProposeLSBanner\":\
+  false,\"InterpreterSelectionTip\":true,\"INTERPRETERS_CACHE_v3_WindowsRegistr\
+  yService\":[{\"architecture\":3,\"path\":\"C:\\\\Python39\\\\python.exe\",\"v\
+  ersion\":{\"options\":{\"loose\":false,\"includePrerelease\":false},\"loose\"\
+  :false,\"raw\":\"3.9.1-final\",\"major\":3,\"minor\":9,\"patch\":1,\"prerelea\
+  se\":[\"final\"],\"build\":[],\"version\":\"3.9.1-final\"},\"sysVersion\":\"3\
+  .9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit
+  (AMD64)]\",\"sysPrefix\":\"C:\\\\Python39\",\"fileHash\":\"9f1df2ed30c616fd5d\
+  91571627add90e1637e1cd97da57fe0aa3ceec01bd6ba38b9957ad09741569cd6230621046e28\
+  ec7dc3a06ba122560dc896e271ff65d2a\",\"companyDisplayName\":\"Python Software
+  Foundation\",\"envType\":\"Unknown\"}],\"INTERPRETERS_CACHE_v3_CondaEnvService\
+  \":[],\"C:\\\\Python38\\\\python.exe.v3\":{\"data\":{\"architecture\":3,\"path\
+  \":\"C:\\\\Python38\\\\python.exe\",\"version\":{\"options\":{\"loose\":false,\
+  \"includePrerelease\":false},\"loose\":false,\"raw\":\"3.8.2-final\",\"major\
+  \":3,\"minor\":8,\"patch\":2,\"prerelease\":[\"final\"],\"build\":[],\"version\
+  \":\"3.8.2-final\"},\"sysPrefix\":\"C:\\\\Python38\",\"fileHash\":\"56713a065\
+  f34cfd4d8783c691a348a0b921ba4f0b15fef4371f4781fcd6832f87928da84b25abd73b771b6\
+  4800cc9df0cdfa5756243e76465720395a500c6a7a\"},\"expiry\":1608685603402},\"C:\\\
+  \\Python38\\\\python.exe.interpreter.displayName.v7\":{\"data\":{\"displayName\
+  \":\"Python 3.8.2
+  64-bit\",\"hash\":\"56713a065f34cfd4d8783c691a348a0b921ba4f0b15fef4371f4781fc\
+  d6832f87928da84b25abd73b771b64800cc9df0cdfa5756243e76465720395a500c6a7a-03c67\
+  0bfbf01b49565fcda5a2d8e2d69\"},\"expiry\":1608685603758},\"C:\\\\Python38\\\\\
+  python.exe.interpreter.Details.v7\":{\"data\":{\"fileHash\":\"56713a065f34cfd\
+  4d8783c691a348a0b921ba4f0b15fef4371f4781fcd6832f87928da84b25abd73b771b64800cc\
+  9df0cdfa5756243e76465720395a500c6a7a\",\"info\":{\"architecture\":3,\"path\":\
+  \"C:\\\\Python38\\\\python.exe\",\"version\":{\"options\":{\"loose\":false,\"\
+  includePrerelease\":false},\"loose\":false,\"raw\":\"3.8.2-final\",\"major\":\
+  3,\"minor\":8,\"patch\":2,\"prerelease\":[\"final\"],\"build\":[],\"version\":\
+  \"3.8.2-final\"},\"sysPrefix\":\"C:\\\\Python38\",\"fileHash\":\"56713a065f34\
+  cfd4d8783c691a348a0b921ba4f0b15fef4371f4781fcd6832f87928da84b25abd73b771b6480\
+  0cc9df0cdfa5756243e76465720395a500c6a7a\",\"companyDisplayName\":\"Python
+  Software Foundation\",\"type\":\"Unknown\",\"displayName\":\"Python 3.8.2
+  64-bit\"}},\"expiry\":1608685603705},\"pylint_DisableLinterInstallPrompt\":tr\
+  ue,\"InteractiveShiftEnterBanner\":false,\"VSCode.ABExp.FeatureData\":{\"feat\
+  ures\":[\"account-aacf\",\"config.mypy-type-checker.preferDaemoncf\",\"config\
+  .python.analysis.addImport.heuristics\",\"config.python.analysis.completionOv\
+  errideExperimentcf\",\"config.python.analysis.supportRestructuredText\",\"con\
+  fig.python.createEnvironment.contentButton\",\"config.python.locator\",\"conf\
+  ig.python.REPL.sendToNativeREPL\",\"copilotImplementAbstractClasses\",\"javaC\
+  ompletionSampling\",\"livesharecontinuousaa\",\"msEntraShowUpdateUserFlow\",\
+  \"pythonRecommendTensorboardExt\",\"pythonTerminalEnvVarActivation\",\"python\
+  TestAdapter\"],\"assignmentContext\":\"vsliv368:30146709;vsaa593cf:30376535;p\
+  y29gd2263:31024239;962ge761:30959799;f8hc8238:30694864;pythonnoceb:30805159;p\
+  ythonmypyd1:30879173;pythontbext0:30951920;pythonait:31006305;nativerepl1:311\
+  39838;pythonrstrctxt:31112756;nativeloc2:31192216;iacca1:31171482;notype1:311\
+  57159;6074i472:31201624;\",\"configs\":[{\"Id\":\"vscode\",\"Parameters\":{\"\
+  account-aa\":false,\"config.mypy-type-checker.preferDaemon\":false,\"config.p\
+  ython.analysis.addImport.heuristics\":true,\"config.python.analysis.completio\
+  nOverrideExperiment\":false,\"config.python.analysis.supportRestructuredText\
+  \":true,\"config.python.createEnvironment.contentButton\":\"hide\",\"config.p\
+  ython.locator\":\"js\",\"config.python.REPL.sendToNativeREPL\":true,\"copilot\
+  ImplementAbstractClasses\":true,\"javaCompletionSampling\":true,\"liveshareco\
+  ntinuousaa\":true,\"msEntraShowUpdateUserFlow\":true,\"pythonRecommendTensorb\
+  oardExt\":true,\"pythonTerminalEnvVarActivation\":true,\"pythonTestAdapter\":\
+  true}}]},\"extensionVersion\":\"2021.7.1060902895\",\"C:\\\\Users\\\\dswif/Wo\
+  rk/swag/api/venv/bin/python.interpreter.Details.v7\":{\"data\":{\"fileHash\":\
+  \"\"},\"expiry\":1604167956404},\"C:\\\\Python39\\\\python.exe.v3\":{\"data\"\
+  :{\"architecture\":3,\"path\":\"C:\\\\Python39\\\\python.exe\",\"version\":{\
+  \"options\":{\"loose\":false,\"includePrerelease\":false},\"loose\":false,\"r\
+  aw\":\"3.9.1-final\",\"major\":3,\"minor\":9,\"patch\":1,\"prerelease\":[\"fi\
+  nal\"],\"build\":[],\"version\":\"3.9.1-final\"},\"sysVersion\":\"3.9.1
+  (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit
+  (AMD64)]\",\"sysPrefix\":\"C:\\\\Python39\",\"fileHash\":\"9f1df2ed30c616fd5d\
+  91571627add90e1637e1cd97da57fe0aa3ceec01bd6ba38b9957ad09741569cd6230621046e28\
+  ec7dc3a06ba122560dc896e271ff65d2a\"},\"expiry\":1619193387397},\"C:\\\\Python\
+  39\\\\python.exe.interpreter.displayName.v7\":{\"data\":{\"displayName\":\"Py\
+  thon 3.9.1
+  64-bit\",\"hash\":\"C:\\\\Python39\\\\python.exe\"},\"expiry\":1627777329750},\
+  \"C:\\\\Python39\\\\python.exe.interpreter.Details.v7\":{\"data\":{\"fileHash\
+  \":\"9f1df2ed30c616fd5d91571627add90e1637e1cd97da57fe0aa3ceec01bd6ba38b9957ad\
+  09741569cd6230621046e28ec7dc3a06ba122560dc896e271ff65d2a\",\"info\":{\"sysPre\
+  fix\":\"C:\\\\Python39\",\"envType\":\"Unknown\",\"envName\":\"\",\"envPath\":\
+  \"\",\"path\":\"C:\\\\Python39\\\\python.exe\",\"architecture\":3,\"sysVersion\
+  \":\"3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit
+  (AMD64)]\",\"version\":{\"raw\":\"3.9.1\",\"major\":3,\"minor\":9,\"patch\":1,\
+  \"build\":[],\"prerelease\":[\"final\",\"0\"]},\"companyDisplayName\":\"Pytho\
+  nCore\",\"displayName\":\"Python 3.9.1
+  64-bit\"}},\"expiry\":1627776653148},\"InterpreterAutoSeletionRule-system\":{\
+  \"sysPrefix\":\"C:\\\\Python39\",\"envType\":\"Unknown\",\"envName\":\"\",\"e\
+  nvPath\":\"\",\"path\":\"C:\\\\Python39\\\\python.exe\",\"architecture\":3,\"\
+  sysVersion\":\"3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927
+  64 bit
+  (AMD64)]\",\"version\":{\"raw\":\"3.9.1\",\"major\":3,\"minor\":9,\"patch\":1,\
+  \"build\":[],\"prerelease\":[\"final\",\"0\"]},\"companyDisplayName\":\"Pytho\
+  nCore\",\"displayName\":\"Python 3.9.1
+  64-bit\"},\"InterpreterAutoSeletionRule-windowsRegistry\":{\"sysPrefix\":\"C:\
+  \\\\Python39\",\"envType\":\"Unknown\",\"envName\":\"\",\"envPath\":\"\",\"pa\
+  th\":\"C:\\\\Python39\\\\python.exe\",\"architecture\":3,\"sysVersion\":\"3.9\
+  .1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit
+  (AMD64)]\",\"version\":{\"raw\":\"3.9.1\",\"major\":3,\"minor\":9,\"patch\":1,\
+  \"build\":[],\"prerelease\":[\"final\",\"0\"]},\"companyDisplayName\":\"Pytho\
+  nCore\"},\"InterpreterAutoSeletionRule-currentPath\":{\"sysPrefix\":\"C:\\\\P\
+  ython39\",\"envType\":\"Unknown\",\"envName\":\"\",\"envPath\":\"\",\"path\":\
+  \"C:\\\\Python39\\\\python.exe\",\"architecture\":3,\"sysVersion\":\"3.9.1
+  (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit
+  (AMD64)]\",\"version\":{\"raw\":\"3.9.1\",\"major\":3,\"minor\":9,\"patch\":1,\
+  \"build\":[],\"prerelease\":[\"final\",\"0\"]},\"companyDisplayName\":\"Pytho\
+  nCore\"},\"InterpreterAutoSeletionRule-cachedInterpreters\":{\"sysPrefix\":\"\
+  C:\\\\Python39\",\"envType\":\"Unknown\",\"envName\":\"\",\"envPath\":\"\",\"\
+  path\":\"C:\\\\Python39\\\\python.exe\",\"architecture\":3,\"sysVersion\":\"3\
+  .9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit
+  (AMD64)]\",\"version\":{\"raw\":\"3.9.1\",\"major\":3,\"minor\":9,\"patch\":1,\
+  \"build\":[],\"prerelease\":[\"final\",\"0\"]},\"companyDisplayName\":\"Pytho\
+  nCore\"},\"preferredGlobalPyInterpreter\":{\"id\":\"C:\\\\USERS\\\\DSWIF\\\\.\
+  PYENV\\\\PYENV-WIN\\\\VERSIONS\\\\3.9.6\\\\PYTHON.EXE\",\"sysPrefix\":\"C:\\\
+  \\Users\\\\dswif\\\\.pyenv\\\\pyenv-win\\\\versions\\\\3.9.6\",\"envType\":\"\
+  Pyenv\",\"envName\":\"3.9.6\",\"envPath\":\"C:\\\\Users\\\\dswif\\\\.pyenv\\\
+  \\pyenv-win\\\\versions\\\\3.9.6\",\"path\":\"C:\\\\Users\\\\dswif\\\\.pyenv\\\
+  \\pyenv-win\\\\versions\\\\3.9.6\\\\python.exe\",\"architecture\":3,\"sysVers\
+  ion\":\"3.9.6 (tags/v3.9.6:db3ff76, Jun 28 2021, 15:26:21) [MSC v.1929 64 bit
+  (AMD64)]\",\"version\":{\"raw\":\"3.9.6\",\"major\":3,\"minor\":9,\"patch\":6,\
+  \"build\":[],\"prerelease\":[\"final\",\"0\"]},\"displayName\":\"Python 3.9.6
+  64-bit ('3.9.6')\",\"detailedDisplayName\":\"Python 3.9.6 64-bit ('3.9.6':
+  pyenv)\"},\"JoinMailingListPrompt\":true,\"PYTHON_ENV_INFO_CACHE\":[{\"name\":\
+  \"env\",\"location\":\"c:\\\\Users\\\\dswif\\\\Desktop\\\\clean-windows-path\\\
+  \\env\",\"kind\":\"virt-venv\",\"executable\":{\"filename\":\"c:\\\\Users\\\\\
+  dswif\\\\Desktop\\\\clean-windows-path\\\\env\\\\Scripts\\\\python.exe\",\"sy\
+  sPrefix\":\"c:\\\\Users\\\\dswif\\\\Desktop\\\\clean-windows-path\\\\env\",\"\
+  ctime\":1658517011814,\"mtime\":1658517011814},\"searchLocation\":\"file:///c\
+  %3A/Users/dswif/Desktop/clean-windows-path/env\",\"display\":\"Python 3.9.6
+  ('env':
+  venv)\",\"version\":{\"major\":3,\"minor\":9,\"micro\":6,\"release\":{\"level\
+  \":\"final\",\"serial\":0},\"sysVersion\":\"3.9.6 (tags/v3.9.6:db3ff76, Jun 28
+  2021, 15:26:21) [MSC v.1929 64 bit
+  (AMD64)]\"},\"arch\":3,\"distro\":{\"org\":\"\"},\"source\":[],\"id\":\"C:\\\
+  \\USERS\\\\DSWIF\\\\DESKTOP\\\\CLEAN-WINDOWS-PATH\\\\ENV\\\\SCRIPTS\\\\PYTHON\
+  .EXE\",\"detailedDisplayName\":\"Python 3.9.6 ('env':
+  venv)\",\"hasLatestInfo\":true},{\"name\":\"3.9.6\",\"location\":\"C:\\\\Users\
+  \\\\dswif\\\\.pyenv\\\\pyenv-win\\\\versions\\\\3.9.6\",\"kind\":\"global-pye\
+  nv\",\"executable\":{\"filename\":\"C:\\\\Users\\\\dswif\\\\.pyenv\\\\pyenv-w\
+  in\\\\versions\\\\3.9.6\\\\python.exe\",\"sysPrefix\":\"C:\\\\Users\\\\dswif\\\
+  \\.pyenv\\\\pyenv-win\\\\versions\\\\3.9.6\",\"ctime\":1650566834883,\"mtime\
+  \":1624921724000},\"display\":\"Python 3.9.6 64-bit
+  ('3.9.6')\",\"version\":{\"major\":3,\"minor\":9,\"micro\":6,\"release\":{\"l\
+  evel\":\"final\",\"serial\":0},\"sysVersion\":\"3.9.6 (tags/v3.9.6:db3ff76,
+  Jun 28 2021, 15:26:21) [MSC v.1929 64 bit
+  (AMD64)]\"},\"arch\":3,\"distro\":{\"org\":\"\"},\"source\":[],\"id\":\"C:\\\
+  \\USERS\\\\DSWIF\\\\.PYENV\\\\PYENV-WIN\\\\VERSIONS\\\\3.9.6\\\\PYTHON.EXE\",\
+  \"detailedDisplayName\":\"Python 3.9.6 64-bit ('3.9.6':
+  pyenv)\"},{\"name\":\"-SNfpu_4o\",\"location\":\"C:\\\\Users\\\\dswif\\\\.vir\
+  tualenvs\\\\-SNfpu_4o\",\"kind\":\"virt-venv\",\"executable\":{\"filename\":\
+  \"C:\\\\Users\\\\dswif\\\\.virtualenvs\\\\-SNfpu_4o\\\\Scripts\\\\python.exe\
+  \",\"sysPrefix\":\"C:\\\\Users\\\\dswif\\\\.virtualenvs\\\\-SNfpu_4o\",\"ctime\
+  \":1656349775947,\"mtime\":1656349775947},\"display\":\"Python 3.9.6
+  ('-SNfpu_4o')\",\"version\":{\"major\":3,\"minor\":9,\"micro\":6,\"release\":{\
+  \"level\":\"final\",\"serial\":0},\"sysVersion\":\"3.9.6 (tags/v3.9.6:db3ff76,
+  Jun 28 2021, 15:26:21) [MSC v.1929 64 bit
+  (AMD64)]\"},\"arch\":3,\"distro\":{\"org\":\"\"},\"source\":[],\"type\":\"Vir\
+  tual\",\"id\":\"C:\\\\USERS\\\\DSWIF\\\\.VIRTUALENVS\\\\-SNFPU_4O\\\\SCRIPTS\\\
+  \\PYTHON.EXE\",\"detailedDisplayName\":\"Python 3.9.6 ('-SNfpu_4o':
+  venv)\"},{\"name\":\"clean-windows-path-c6i5C9xS\",\"location\":\"C:\\\\Users\
+  \\\\dswif\\\\.virtualenvs\\\\clean-windows-path-c6i5C9xS\",\"kind\":\"virt-pi\
+  penv\",\"executable\":{\"filename\":\"C:\\\\Users\\\\dswif\\\\.virtualenvs\\\
+  \\clean-windows-path-c6i5C9xS\\\\Scripts\\\\python.exe\",\"sysPrefix\":\"C:\\\
+  \\Users\\\\dswif\\\\.virtualenvs\\\\clean-windows-path-c6i5C9xS\",\"ctime\":1\
+  656348624697,\"mtime\":1656348624697},\"display\":\"Python 3.9.6
+  ('clean-windows-path-c6i5C9xS')\",\"version\":{\"major\":3,\"minor\":9,\"micro\
+  \":6,\"release\":{\"level\":\"final\",\"serial\":0},\"sysVersion\":\"3.9.6
+  (tags/v3.9.6:db3ff76, Jun 28 2021, 15:26:21) [MSC v.1929 64 bit
+  (AMD64)]\"},\"arch\":3,\"distro\":{\"org\":\"\"},\"source\":[],\"type\":\"Vir\
+  tual\",\"id\":\"C:\\\\USERS\\\\DSWIF\\\\.VIRTUALENVS\\\\CLEAN-WINDOWS-PATH-C6\
+  I5C9XS\\\\SCRIPTS\\\\PYTHON.EXE\",\"detailedDisplayName\":\"Python 3.9.6
+  ('clean-windows-path-c6i5C9xS':
+  Pipenv)\"},{\"name\":\"clean-windows-path-KqMzvqeu\",\"location\":\"C:\\\\Use\
+  rs\\\\dswif\\\\.virtualenvs\\\\clean-windows-path-KqMzvqeu\",\"kind\":\"virt-\
+  pipenv\",\"executable\":{\"filename\":\"C:\\\\Users\\\\dswif\\\\.virtualenvs\\\
+  \\clean-windows-path-KqMzvqeu\\\\Scripts\\\\python.exe\",\"sysPrefix\":\"C:\\\
+  \\Users\\\\dswif\\\\.virtualenvs\\\\clean-windows-path-KqMzvqeu\",\"ctime\":1\
+  656348662286,\"mtime\":1656348662286},\"display\":\"Python 3.9.6
+  ('clean-windows-path-KqMzvqeu')\",\"version\":{\"major\":3,\"minor\":9,\"micro\
+  \":6,\"release\":{\"level\":\"final\",\"serial\":0},\"sysVersion\":\"3.9.6
+  (tags/v3.9.6:db3ff76, Jun 28 2021, 15:26:21) [MSC v.1929 64 bit
+  (AMD64)]\"},\"arch\":3,\"distro\":{\"org\":\"\"},\"source\":[],\"type\":\"Vir\
+  tual\",\"id\":\"C:\\\\USERS\\\\DSWIF\\\\.VIRTUALENVS\\\\CLEAN-WINDOWS-PATH-KQ\
+  MZVQEU\\\\SCRIPTS\\\\PYTHON.EXE\",\"detailedDisplayName\":\"Python 3.9.6
+  ('clean-windows-path-KqMzvqeu':
+  Pipenv)\"}],\"c:\\\\python39\\\\python.exe.interpreter.displayName.v7\":{\"da\
+  ta\":{\"displayName\":\"Python 3.9.1
+  64-bit\",\"hash\":\"9f1df2ed30c616fd5d91571627add90e1637e1cd97da57fe0aa3ceec0\
+  1bd6ba38b9957ad09741569cd6230621046e28ec7dc3a06ba122560dc896e271ff65d2a-5cab8\
+  0ccc333a7b90befc579f69731b7\"},\"expiry\":1620228487940},\"c:\\\\python39\\\\\
+  python.exe.interpreter.Details.v7\":{\"data\":{\"fileHash\":\"9f1df2ed30c616f\
+  d5d91571627add90e1637e1cd97da57fe0aa3ceec01bd6ba38b9957ad09741569cd6230621046\
+  e28ec7dc3a06ba122560dc896e271ff65d2a\",\"info\":{\"sysPrefix\":\"c:\\\\python\
+  39\",\"envType\":\"Unknown\",\"envName\":\"\",\"envPath\":\"\",\"path\":\"c:\\\
+  \\python39\\\\python.exe\",\"architecture\":3,\"sysVersion\":\"3.9.1
+  (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit
+  (AMD64)]\",\"version\":{\"raw\":\"3.9.1\",\"major\":3,\"minor\":9,\"patch\":1,\
+  \"build\":[],\"prerelease\":[\"final\",\"0\"]},\"companyDisplayName\":\"Pytho\
+  nCore\",\"displayName\":\"Python 3.9.1
+  64-bit\"}},\"expiry\":1620228487983},\"PYTHON_EXTENSION_GLOBAL_STORAGE_KEYS\"\
+  :[],\"pylanceDefaultPromptMemento\":true,\"InterpreterAutoSeletionRule-worksp\
+  aceEnvs\":{\"sysPrefix\":\"\",\"envType\":\"Venv\",\"envName\":\"venv\",\"env\
+  Path\":\"d:\\\\Google
+  Drive\\\\Projects\\\\TVDB_Renaming\\\\venv\",\"path\":\"d:\\\\Google
+  Drive\\\\Projects\\\\TVDB_Renaming\\\\venv\\\\Scripts\\\\python.exe\",\"archi\
+  tecture\":1,\"sysVersion\":\"\",\"version\":{\"raw\":\"3.9.1\",\"major\":3,\"\
+  minor\":9,\"patch\":1,\"build\":[],\"prerelease\":[]}},\"d:\\\\Google
+  Drive\\\\Projects\\\\TVDB_Renaming\\\\venv\\\\Scripts\\\\python.exe.interpret\
+  er.displayName.v7\":{\"data\":{\"displayName\":\"Python 3.9.1  ('venv':
+  venv)\",\"hash\":\"d:\\\\Google
+  Drive\\\\Projects\\\\TVDB_Renaming\\\\venv\\\\Scripts\\\\python.exe\"},\"expi\
+  ry\":1625425308140},\"d:\\\\Google
+  Drive\\\\Projects\\\\TVDB_Renaming\\\\venv\\\\Scripts\\\\python.exe.interpret\
+  er.Details.v7\":{\"data\":{\"fileHash\":\"ffe1766e8dcbffcbe0109c89c69cec556cc\
+  7ae9c65d5ce48ab97003b5c7d2a93963121548eff919f2fedcac7f3a51c23900624957c8d3092\
+  c79bfafe52bda93f\",\"info\":{\"sysPrefix\":\"\",\"envType\":\"Venv\",\"envName\
+  \":\"venv\",\"envPath\":\"d:\\\\Google
+  Drive\\\\Projects\\\\TVDB_Renaming\\\\venv\",\"path\":\"d:\\\\Google
+  Drive\\\\Projects\\\\TVDB_Renaming\\\\venv\\\\Scripts\\\\python.exe\",\"archi\
+  tecture\":1,\"sysVersion\":\"\",\"version\":{\"raw\":\"3.9.1\",\"major\":3,\"\
+  minor\":9,\"patch\":1,\"build\":[],\"prerelease\":[]},\"displayName\":\"Python
+  3.9.1  ('venv':
+  venv)\"}},\"expiry\":1625425308224},\"C:\\\\tools\\\\anaconda3\\\\python.exe.\
+  interpreter.displayName.v7\":{\"data\":{\"displayName\":\"Python 3.8.8 64-bit
+  ('base':
+  conda)\",\"hash\":\"C:\\\\tools\\\\anaconda3\\\\python.exe\"},\"expiry\":1627\
+  777328732},\"C:\\\\tools\\\\anaconda3\\\\python.exe.interpreter.Details.v7\":{\
+  \"data\":{\"fileHash\":\"2f13d0e0a9b6577f7558ab3a6824ac36f26e4bed7691236f6316\
+  44a3f1ed6c7498281a162928a8bd5a7432faafa2bdc21118e5f975ad4aead77f4bc085530583\
+  \",\"info\":{\"sysPrefix\":\"C:\\\\tools\\\\anaconda3\",\"envType\":\"Conda\",\
+  \"envName\":\"base\",\"envPath\":\"C:\\\\tools\\\\Anaconda3\",\"path\":\"C:\\\
+  \\tools\\\\anaconda3\\\\python.exe\",\"architecture\":3,\"sysVersion\":\"3.8.8
+  (default, Apr 13 2021, 15:08:03) [MSC v.1916 64 bit
+  (AMD64)]\",\"version\":{\"raw\":\"3.8.8\",\"major\":3,\"minor\":8,\"patch\":8,\
+  \"build\":[],\"prerelease\":[\"final\",\"0\"]},\"companyDisplayName\":\"Conti\
+  nuumAnalytics\",\"displayName\":\"Python 3.8.8 64-bit ('base':
+  conda)\"}},\"expiry\":1627776653148},\"workspaceFolderKeysForWhichTheCopyIsDo\
+  ne_Key\":[\"D:\\\\GOOGLE DRIVE\\\\SCHOOL\\\\OSU\\\\CS 499\",\"D:\\\\GOOGLE
+  DRIVE\\\\PROJECTS\"],\"isGlobalSettingCopiedKey\":true,\"C:\\\\tools\\\\Anaco\
+  nda3\\\\python.exe.interpreter.displayName.v7\":{\"data\":{\"displayName\":\"\
+  Python 3.8.8 64-bit ('base':
+  conda)\",\"hash\":\"C:\\\\tools\\\\Anaconda3\\\\python.exe\"},\"expiry\":1627\
+  777329750},\"C:\\\\tools\\\\Anaconda3\\\\python.exe.interpreter.Details.v7\":{\
+  \"data\":{\"fileHash\":\"2f13d0e0a9b6577f7558ab3a6824ac36f26e4bed7691236f6316\
+  44a3f1ed6c7498281a162928a8bd5a7432faafa2bdc21118e5f975ad4aead77f4bc085530583\
+  \",\"info\":{\"sysPrefix\":\"C:\\\\tools\\\\Anaconda3\",\"envType\":\"Conda\",\
+  \"envName\":\"base\",\"envPath\":\"C:\\\\tools\\\\Anaconda3\",\"path\":\"C:\\\
+  \\tools\\\\Anaconda3\\\\python.exe\",\"architecture\":3,\"sysVersion\":\"3.8.8
+  (default, Apr 13 2021, 15:08:03) [MSC v.1916 64 bit
+  (AMD64)]\",\"version\":{\"raw\":\"3.8.8\",\"major\":3,\"minor\":8,\"patch\":8,\
+  \"build\":[],\"prerelease\":[\"final\",\"0\"]},\"companyDisplayName\":\"Conti\
+  nuumAnalytics\",\"displayName\":\"Python 3.8.8 64-bit ('base':
+  conda)\"}},\"expiry\":1627776653905},\"GLOBAL_DIAGNOSTICS_FILTER\":[\"PythonP\
+  athDeprecatedDiagnostic\"],\"PYTHON_WAS_DISCOVERY_TRIGGERED_C:\\\\USERS\\\\DS\
+  WIF\\\\DESKTOP\\\\CLEAN-WINDOWS-PATH\":true,\"PYTHON_WAS_DISCOVERY_TRIGGERED_\
+  O:\\\\MEDIA\\\\PLEX\\\\ANIME\":true,\"isRemoteGlobalSettingCopiedKey\":true,\
+  \"PYTHON_WAS_DISCOVERY_TRIGGERED_O:\\\\HOMES\\\\ADMIN\\\\PROJECTS\\\\TWILIGHT\
+  -IMPERIUM4\":true,\"remoteWorkspaceFolderKeysForWhichTheCopyIsDone_Key\":[\"O:\
+  \\\\HOMES\\\\ADMIN\\\\PROJECTS\\\\DYNAMIC-INVITE-MESSAGES\",\"O:\\\\HOMES\\\\\
+  ADMIN\\\\PROJECTS\\\\NCAA FOOTBALL DISCORD
+  BOT\",\"O:\\\\HOMES\\\\ADMIN\\\\PROJECTS\\\\TWILIGHT-IMPERIUM-4\",\"O:\\\\HOM\
+  ES\\\\ADMIN\\\\PROJECTS\\\\TWILIGHT-IMPERIUM4\"],\"PYTHON_WAS_DISCOVERY_TRIGG\
+  ERED_O:\\\\HOMES\\\\ADMIN\\\\PROJECTS\\\\TWILIGHT-IMPERIUM-4\":true,\"PYTHON_\
+  WAS_DISCOVERY_TRIGGERED_O:\\\\HOMES\\\\ADMIN\\\\PROJECTS\\\\NCAA FOOTBALL
+  DISCORD
+  BOT\":true,\"autoSelectionInterpretersQueriedOnce\":true,\"SHELL_INTEGRATION_\
+  WORKING_KEY_powershellCore\":true,\"WORKSPACE_FOLDER_INTERPRETER_PATH_O:\\\\H\
+  OMES\\\\ADMIN\\\\PROJECTS\\\\NCAA FOOTBALL DISCORD
+  BOT\":\"C:\\\\Users\\\\dswif\\\\.pyenv\\\\pyenv-win\\\\versions\\\\3.9.6\\\\p\
+  ython.exe\",\"PYTHON_ENV_INFO_CACHEv2\":[{\"name\":\"3.9.6\",\"location\":\"C:\
+  \\\\Users\\\\dswif\\\\.pyenv\\\\pyenv-win\\\\versions\\\\3.9.6\",\"kind\":\"g\
+  lobal-pyenv\",\"executable\":{\"filename\":\"C:\\\\Users\\\\dswif\\\\.pyenv\\\
+  \\pyenv-win\\\\versions\\\\3.9.6\\\\python.exe\",\"sysPrefix\":\"C:\\\\Users\\\
+  \\dswif\\\\.pyenv\\\\pyenv-win\\\\versions\\\\3.9.6\",\"ctime\":1650566834883,\
+  \"mtime\":1624921724000},\"display\":\"Python 3.9.6 64-bit
+  ('3.9.6')\",\"version\":{\"major\":3,\"minor\":9,\"micro\":6,\"release\":{\"l\
+  evel\":\"final\",\"serial\":0},\"sysVersion\":\"3.9.6 (tags/v3.9.6:db3ff76,
+  Jun 28 2021, 15:26:21) [MSC v.1929 64 bit
+  (AMD64)]\"},\"arch\":3,\"distro\":{\"org\":\"\"},\"source\":[],\"id\":\"C:\\\
+  \\USERS\\\\DSWIF\\\\.PYENV\\\\PYENV-WIN\\\\VERSIONS\\\\3.9.6\\\\PYTHON.EXE\",\
+  \"detailedDisplayName\":\"Python 3.9.6 64-bit ('3.9.6':
+  pyenv)\"},{\"name\":\"-SNfpu_4o\",\"location\":\"C:\\\\Users\\\\dswif\\\\.vir\
+  tualenvs\\\\-SNfpu_4o\",\"kind\":\"virt-venv\",\"executable\":{\"filename\":\
+  \"C:\\\\Users\\\\dswif\\\\.virtualenvs\\\\-SNfpu_4o\\\\Scripts\\\\python.exe\
+  \",\"sysPrefix\":\"C:\\\\Users\\\\dswif\\\\.virtualenvs\\\\-SNfpu_4o\",\"ctime\
+  \":1656349775947,\"mtime\":1656349775947},\"display\":\"Python 3.9.6
+  ('-SNfpu_4o')\",\"version\":{\"major\":3,\"minor\":9,\"micro\":6,\"release\":{\
+  \"level\":\"final\",\"serial\":0},\"sysVersion\":\"3.9.6 (tags/v3.9.6:db3ff76,
+  Jun 28 2021, 15:26:21) [MSC v.1929 64 bit
+  (AMD64)]\"},\"arch\":3,\"distro\":{\"org\":\"\"},\"source\":[],\"type\":\"Vir\
+  tual\",\"id\":\"C:\\\\USERS\\\\DSWIF\\\\.VIRTUALENVS\\\\-SNFPU_4O\\\\SCRIPTS\\\
+  \\PYTHON.EXE\",\"detailedDisplayName\":\"Python 3.9.6 ('-SNfpu_4o':
+  venv)\"},{\"name\":\"clean-windows-path-c6i5C9xS\",\"location\":\"C:\\\\Users\
+  \\\\dswif\\\\.virtualenvs\\\\clean-windows-path-c6i5C9xS\",\"kind\":\"virt-pi\
+  penv\",\"executable\":{\"filename\":\"C:\\\\Users\\\\dswif\\\\.virtualenvs\\\
+  \\clean-windows-path-c6i5C9xS\\\\Scripts\\\\python.exe\",\"sysPrefix\":\"C:\\\
+  \\Users\\\\dswif\\\\.virtualenvs\\\\clean-windows-path-c6i5C9xS\",\"ctime\":1\
+  656348624697,\"mtime\":1656348624697},\"searchLocation\":\"file:///o%3A/homes\
+  /admin/Projects/clean-windows-path\",\"display\":\"Python 3.9.6
+  ('clean-windows-path-c6i5C9xS')\",\"version\":{\"major\":3,\"minor\":9,\"micro\
+  \":6,\"release\":{\"level\":\"final\",\"serial\":0},\"sysVersion\":\"3.9.6
+  (tags/v3.9.6:db3ff76, Jun 28 2021, 15:26:21) [MSC v.1929 64 bit
+  (AMD64)]\"},\"arch\":3,\"distro\":{\"org\":\"\"},\"source\":[],\"type\":\"Vir\
+  tual\",\"id\":\"C:\\\\USERS\\\\DSWIF\\\\.VIRTUALENVS\\\\CLEAN-WINDOWS-PATH-C6\
+  I5C9XS\\\\SCRIPTS\\\\PYTHON.EXE\",\"detailedDisplayName\":\"Python 3.9.6
+  ('clean-windows-path-c6i5C9xS':
+  Pipenv)\"},{\"name\":\"clean-windows-path-KqMzvqeu\",\"location\":\"C:\\\\Use\
+  rs\\\\dswif\\\\.virtualenvs\\\\clean-windows-path-KqMzvqeu\",\"kind\":\"virt-\
+  pipenv\",\"executable\":{\"filename\":\"C:\\\\Users\\\\dswif\\\\.virtualenvs\\\
+  \\clean-windows-path-KqMzvqeu\\\\Scripts\\\\python.exe\",\"sysPrefix\":\"C:\\\
+  \\Users\\\\dswif\\\\.virtualenvs\\\\clean-windows-path-KqMzvqeu\",\"ctime\":1\
+  656348662286,\"mtime\":1656348662286},\"searchLocation\":\"file:///Main/homes\
+  /admin/Projects/clean-windows-path\",\"display\":\"Python 3.9.6
+  ('clean-windows-path-KqMzvqeu')\",\"version\":{\"major\":3,\"minor\":9,\"micro\
+  \":6,\"release\":{\"level\":\"final\",\"serial\":0},\"sysVersion\":\"3.9.6
+  (tags/v3.9.6:db3ff76, Jun 28 2021, 15:26:21) [MSC v.1929 64 bit
+  (AMD64)]\"},\"arch\":3,\"distro\":{\"org\":\"\"},\"source\":[],\"type\":\"Vir\
+  tual\",\"id\":\"C:\\\\USERS\\\\DSWIF\\\\.VIRTUALENVS\\\\CLEAN-WINDOWS-PATH-KQ\
+  MZVQEU\\\\SCRIPTS\\\\PYTHON.EXE\",\"detailedDisplayName\":\"Python 3.9.6
+  ('clean-windows-path-KqMzvqeu':
+  Pipenv)\"}],\"PYTHON_WAS_DISCOVERY_TRIGGERED_O:\\\\HOMES\\\\ADMIN\\\\PROJECTS\
+  \\\\DYNAMIC-INVITE-MESSAGES\":true,\"PYTHON_GLOBAL_STORAGE_KEYS\":[{\"key\":\
+  \"PYTHON_WAS_DISCOVERY_TRIGGERED_O:\\\\HOMES\\\\ADMIN\\\\PROJECTS\\\\DYNAMIC-\
+  INVITE-MESSAGES\",\"defaultValue\":false},{\"key\":\"WORKSPACE_FOLDER_INTERPR\
+  ETER_PATH_O:\\\\HOMES\\\\ADMIN\\\\PROJECTS\\\\DYNAMIC-INVITE-MESSAGES\"},{\"k\
+  ey\":\"PYTHON_ENV_INFO_CACHEv2\",\"defaultValue\":[]},{\"key\":\"autoSelectio\
+  nInterpretersQueriedOnce\"},{\"key\":\"PYTHON_WAS_DISCOVERY_TRIGGERED_O:\\\\H\
+  OMES\\\\ADMIN\\\\PROJECTS\\\\NCAA FOOTBALL DISCORD
+  BOT\",\"defaultValue\":false},{\"key\":\"SHELL_INTEGRATION_WORKING_KEY_powers\
+  hellCore\"},{\"key\":\"WORKSPACE_FOLDER_INTERPRETER_PATH_O:\\\\HOMES\\\\ADMIN\
+  \\\\PROJECTS\\\\NCAA FOOTBALL DISCORD
+  BOT\"},{\"key\":\"PYTHON_WAS_DISCOVERY_TRIGGERED_O:\\\\HOMES\\\\ADMIN\\\\PROJ\
+  ECTS\\\\TWILIGHT-IMPERIUM-4\",\"defaultValue\":false},{\"key\":\"WORKSPACE_FO\
+  LDER_INTERPRETER_PATH_O:\\\\HOMES\\\\ADMIN\\\\PROJECTS\\\\TWILIGHT-IMPERIUM-4\
+  \"},{\"key\":\"remoteWorkspaceFolderKeysForWhichTheCopyIsDone_Key\",\"default\
+  Value\":[]},{\"key\":\"PYTHON_WAS_DISCOVERY_TRIGGERED_O:\\\\HOMES\\\\ADMIN\\\
+  \\PROJECTS\\\\TWILIGHT-IMPERIUM4\",\"defaultValue\":false},{\"key\":\"WORKSPA\
+  CE_FOLDER_INTERPRETER_PATH_O:\\\\HOMES\\\\ADMIN\\\\PROJECTS\\\\TWILIGHT-IMPER\
+  IUM4\"},{\"key\":\"doNotShowExtensionSurveyUntilTime\",\"defaultValue\":false\
+  },{\"key\":\"doNotShowExtensionSurveyAgain\",\"defaultValue\":false},{\"key\":\
+  \"PYTHON_ENV_INFO_CACHE\",\"defaultValue\":[]},{\"key\":\"PYTHON_ENV_INFO_CAC\
+  HE\",\"defaultValue\":[]},{\"key\":\"isRemoteGlobalSettingCopiedKey\",\"defau\
+  ltValue\":false},{\"key\":\"PYTHON_ENV_INFO_CACHE\",\"defaultValue\":[]},{\"k\
+  ey\":\"PYTHON_ENV_INFO_CACHE\",\"defaultValue\":[]},{\"key\":\"PYTHON_WAS_DIS\
+  COVERY_TRIGGERED_O:\\\\MEDIA\\\\PLEX\\\\ANIME\",\"defaultValue\":false},{\"key\
+  \":\"PYTHON_ENV_INFO_CACHE\",\"defaultValue\":[]},{\"key\":\"WORKSPACE_FOLDER\
+  _INTERPRETER_PATH_O:\\\\MEDIA\\\\PLEX\\\\ANIME\"},{\"key\":\"PYTHON_ENV_INFO_\
+  CACHE\",\"defaultValue\":[]},{\"key\":\"PYTHON_ENV_INFO_CACHE\",\"defaultValue\
+  \":[]},{\"key\":\"PYTHON_ENV_INFO_CACHE\",\"defaultValue\":[]},{\"key\":\"PYT\
+  HON_ENV_INFO_CACHE\",\"defaultValue\":[]},{\"key\":\"PYTHON_ENV_INFO_CACHE\",\
+  \"defaultValue\":[]},{\"key\":\"PYTHON_ENV_INFO_CACHE\",\"defaultValue\":[]},{\
+  \"key\":\"PYTHON_ENV_INFO_CACHE\",\"defaultValue\":[]},{\"key\":\"PYTHON_ENV_\
+  INFO_CACHE\",\"defaultValue\":[]},{\"key\":\"PYTHON_ENV_INFO_CACHE\",\"defaul\
+  tValue\":[]},{\"key\":\"PYTHON_WAS_DISCOVERY_TRIGGERED_C:\\\\USERS\\\\DSWIF\\\
+  \\DESKTOP\\\\CLEAN-WINDOWS-PATH\",\"defaultValue\":false},{\"key\":\"PYTHON_E\
+  NV_INFO_CACHE\",\"defaultValue\":[]},{\"key\":\"WORKSPACE_FOLDER_INTERPRETER_\
+  PATH_C:\\\\USERS\\\\DSWIF\\\\DESKTOP\\\\CLEAN-WINDOWS-PATH\"},{\"key\":\"PYTH\
+  ON_ENV_INFO_CACHE\",\"defaultValue\":[]},{\"key\":\"VSCode.ABExp.FeatureData\
+  \",\"defaultValue\":{\"features\":[]}},{\"key\":\"PYTHON_ENV_INFO_CACHE\",\"d\
+  efaultValue\":[]},{\"key\":\"PYTHON_ENV_INFO_CACHE\",\"defaultValue\":[]},{\"\
+  key\":\"WORKSPACE_FOLDER_INTERPRETER_PATH_Q:\\\\P\\\\ONLYFANS-DL\"},{\"key\":\
+  \"PYTHON_ENV_INFO_CACHE\",\"defaultValue\":[]},{\"key\":\"PYTHON_ENV_INFO_CAC\
+  HE\",\"defaultValue\":[]},{\"key\":\"WORKSPACE_FOLDER_INTERPRETER_PATH_N:\\\\\
+  SCHOOL\\\\OSU\\\\CS 331 - ARTIFICIAL
+  INTELLIGENCE\"},{\"key\":\"PYTHON_ENV_INFO_CACHE\",\"defaultValue\":[]},{\"key\
+  \":\"WORKSPACE_FOLDER_INTERPRETER_PATH_N:\\\\P\\\\ONLYFANS-DL\"},{\"key\":\"P\
+  YTHON_ENV_INFO_CACHE\",\"defaultValue\":[]},{\"key\":\"PYTHON_ENV_INFO_CACHE\
+  \",\"defaultValue\":[]},{\"key\":\"PYTHON_ENV_INFO_CACHE\",\"defaultValue\":[\
+  ]},{\"key\":\"PYTHON_ENV_INFO_CACHE\",\"defaultValue\":[]},{\"key\":\"PYTHON_\
+  ENV_INFO_CACHE\",\"defaultValue\":[]},{\"key\":\"PYTHON_ENV_INFO_CACHE\",\"de\
+  faultValue\":[]},{\"key\":\"PYTHON_ENV_INFO_CACHE\",\"defaultValue\":[]},{\"k\
+  ey\":\"PYTHON_ENV_INFO_CACHE\",\"defaultValue\":[]},{\"key\":\"PYTHON_ENV_INF\
+  O_CACHE\",\"defaultValue\":[]},{\"key\":\"PYTHON_ENV_INFO_CACHE\",\"defaultVa\
+  lue\":[]},{\"key\":\"PYTHON_ENV_INFO_CACHE\",\"defaultValue\":[]},{\"key\":\"\
+  PYTHON_ENV_INFO_CACHE\",\"defaultValue\":[]},{\"key\":\"PYTHON_ENV_INFO_CACHE\
+  \",\"defaultValue\":[]},{\"key\":\"PYTHON_ENV_INFO_CACHE\",\"defaultValue\":[\
+  ]},{\"key\":\"PYTHON_ENV_INFO_CACHE\",\"defaultValue\":[]},{\"key\":\"PYTHON_\
+  ENV_INFO_CACHE\",\"defaultValue\":[]},{\"key\":\"PYTHON_ENV_INFO_CACHE\",\"de\
+  faultValue\":[]},{\"key\":\"PYTHON_ENV_INFO_CACHE\",\"defaultValue\":[]},{\"k\
+  ey\":\"WORKSPACE_FOLDER_INTERPRETER_PATH_D:\\\\GOOGLE
+  DRIVE\\\\PROJECTS\\\\SIEMENS_HW\"},{\"key\":\"PYTHON_ENV_INFO_CACHE\",\"defau\
+  ltValue\":[]},{\"key\":\"PYTHON_ENV_INFO_CACHE\",\"defaultValue\":[]},{\"key\
+  \":\"GLOBAL_DIAGNOSTICS_FILTER\",\"defaultValue\":[]},{\"key\":\"PYTHON_ENV_I\
+  NFO_CACHE\",\"defaultValue\":[]},{\"key\":\"WORKSPACE_FOLDER_INTERPRETER_PATH\
+  _N:\\\\DEVIN\\\\DOCUMENTS\\\\WORK\\\\SWAG-MASTER\"},{\"key\":\"PYTHON_ENV_INF\
+  O_CACHE\",\"defaultValue\":[]},{\"key\":\"PYTHON_ENV_INFO_CACHE\",\"defaultVa\
+  lue\":[]},{\"key\":\"SWITCH_LS\"},{\"key\":\"isGlobalSettingCopiedKey\",\"def\
+  aultValue\":false},{\"key\":\"workspaceFolderKeysForWhichTheCopyIsDone_Key\",\
+  \"defaultValue\":[]},{\"key\":\"PYTHON_EXTENSION_GLOBAL_STORAGE_KEYS\",\"defa\
+  ultValue\":[]},{\"key\":\"ShowBanner\",\"defaultValue\":true},{\"key\":\"Join\
+  MailingListPrompt\",\"defaultValue\":false},{\"key\":\"PythonTensorBoardWebvi\
+  ewPreferredViewGroup\",\"defaultValue\":-1},{\"key\":\"INSIDERS_PROMPT_STATE_\
+  KEY\",\"defaultValue\":false},{\"key\":\"WORKSPACE_FOLDER_INTERPRETER_PATH_D:\
+  \\\\GOOGLE DRIVE\\\\SCHOOL\\\\OSU\\\\CS
+  499\"},{\"key\":\"preferredGlobalPyInterpreter\"},{\"key\":\"PYTHON_ENV_INFO_\
+  CACHE\"}]}"
+ms-python.vscode-pylance: '{"insidersChannel":"off","VSCode.ABExp.FeatureData":{"features":["autoModelEnabled","config.chat.todoListTool.enabled","config.editor.inlineSuggest.experimental.triggerCommandOnProviderChange","copilotchat.config.chat.advanced.instantApply.ModelName","copilotchat.config.chat.advanced.instantApply.shortContextModelName","copilotchat.disableReplaceStringHealing","copilotchat.enableNesInSettings","copilotchat.hiddenModelBEditTool","copilot_ci","ideenablecopilotsemanticsearchcf","javaCompletionSampling","livesharecontinuousaa","mindaroBinariesVersion","test-ai-12cf","workspace.embeddingIndex.automaticReindexingDelay"],"assignmentContext":"vsliv368:30146709;binariesv615:30325510;f8hc8238:30694864;copilot_t_ci:31333650;aj953862:31281341;nes-set-on:31340697;6abeh943:31336334;todos-1:31405332;qwen_all_req:31402696;42190218_ostrepl:31403339;trigger-command-fix:31379601;auto_model_enabled:31385282;ec5jj548:31422691;cp_cls_c_966_ss:31426491;","configs":[{"Id":"vscode","Parameters":{"autoModelEnabled":true,"config.chat.todoListTool.enabled":true,"config.editor.inlineSuggest.experimental.triggerCommandOnProviderChange":true,"copilotchat.config.chat.advanced.instantApply.ModelName":"qwen3-4b-instant-apply-ft","copilotchat.config.chat.advanced.instantApply.shortContextModelName":"qwen3-4b-instant-apply-ft","copilotchat.disableReplaceStringHealing":true,"copilotchat.enableNesInSettings":true,"copilotchat.hiddenModelBEditTool":"only_replace_string","copilot_ci":true,"ideenablecopilotsemanticsearch":false,"javaCompletionSampling":true,"livesharecontinuousaa":true,"mindaroBinariesVersion":"1.0.20210615.1","test-ai-12":false,"workspace.embeddingIndex.automaticReindexingDelay":100000000}}]}}'
+ms-toolsai.jupyter: '{"trustKeyMigrated":true,"trustDirectoryMigrated":true,"MigratedDataScienceSettingsService":true,"MigratedDataScienceKeybindingsService":true,"INTERPRETER_PATH_WAS_SELECTED_FOR_JUPYTER_SERVER":true,"VSCode.ABExp.FeatureData":{"features":["account-aacf","config.jupyter.enableKernelCompletions","config.mypy-type-checker.preferDaemoncf","config.notebook.experimental.generate","config.python.analysis.addImport.heuristics","config.python.analysis.completionOverrideExperimentcf","config.python.analysis.supportRestructuredText","config.python.createEnvironment.contentButton","config.python.locator","config.python.REPL.sendToNativeREPL","copilotImplementAbstractClasses","DataViewerContribution","DataViewerDeprecation","javaCompletionSampling","livesharecontinuousaa","mindaroBinariesVersion","msEntraShowUpdateUserFlow","portForwardingServiceEnabled-development","portForwardingServiceEnabled-production","portForwardingServiceEnabled-staging","pythonRecommendTensorboardExt","pythonTerminalEnvVarActivation","pythonTestAdapter","shouldUseGrpcService"],"assignmentContext":"vsliv368:30146709;vspor879:30202332;vspor708:30202333;vspor363:30204092;binariesv615:30325510;vsaa593cf:30376535;py29gd2263:31024239;c4g48928:30535728;962ge761:30959799;f8hc8238:30694864;pythonnoceb:30805159;pythonmypyd1:30879173;pythontbext0:30879054;dsvsc020:30976470;pythonait:31006305;dsvsc021:30996838;dvdeprecation:31068756;nativerepl1:31139838;pythonrstrctxt:31112756;nativeloc2:31192216;iacca1:31171482;notype1:31157159;5fd0e150:31155592;6074i472:31201624;","configs":[{"Id":"vscode","Parameters":{"account-aa":false,"config.jupyter.enableKernelCompletions":true,"config.mypy-type-checker.preferDaemon":false,"config.notebook.experimental.generate":true,"config.python.analysis.addImport.heuristics":true,"config.python.analysis.completionOverrideExperiment":false,"config.python.analysis.supportRestructuredText":true,"config.python.createEnvironment.contentButton":"hide","config.python.locator":"js","config.python.REPL.sendToNativeREPL":true,"copilotImplementAbstractClasses":true,"DataViewerContribution":true,"DataViewerDeprecation":true,"javaCompletionSampling":true,"livesharecontinuousaa":true,"mindaroBinariesVersion":"1.0.20210615.1","msEntraShowUpdateUserFlow":true,"portForwardingServiceEnabled-development":true,"portForwardingServiceEnabled-production":true,"portForwardingServiceEnabled-staging":true,"pythonRecommendTensorboardExt":true,"pythonTerminalEnvVarActivation":true,"pythonTestAdapter":true,"shouldUseGrpcService":true}}]},"JVSC_INTRO_NATIVE_NB_DISPLAYED":true,"CELL_TOOLBAR_SETTING_MEMENTO_KEY":true,"JupyterDetectionTelemetrySentMementoKey":true,"CACHE_KEY_FOR_JUPYTER_KERNELSPEC_ROOT_PATH.":"file:///c%3A/Users/dswif/AppData/Roaming/jupyter/kernels","NewUserUriMigrationCompleted":"d04a7730b7dd5053589b5e3cc22e49a563b8e67420b7902b50571fb05b582b14","MEMENTO_KEY_FOR_STORING_USED_JUPYTER_PROVIDERS_d04a7730b7dd5053589b5e3cc22e49a563b8e67420b7902b50571fb05b582b14":[]}'
+ms-vscode-remote.remote-containers: '{"VSCode.ABExp.FeatureData":{"features":["config.chat.subagentTool.customAgents","config.github.copilot.nextEditSuggestions.enabled","config.inlineChat.renderMode","config.sessions.chat.localAgent.enabledcf","copilotappmodcontextmenuenabled","copilotappmodproblemsviewenabledcf","copilotchat.disableReplaceStringHealing","copilotchat.hiddenModelBEditTool","copilotsearchagentenabled","copilottransparenttokenrefresh","copilot_ci","cveremediatoragentenabled","dynamic_mcpcf","extensionEnabledApiProposalsFallback","featureflag-23-1","github.copilot.chat.agentDebugLog.enabled","github.copilot.chat.agentDebugLog.fileLogging.enabled","ideenablecopilotnes","ideenablecopilotsemanticsearch","javaCompletionSampling","livesharecontinuousaa","mindaroBinariesVersion","new_test","registerNuGetMcpServerEnabled","suggestNativePreview","test_t","workspace.embeddingIndex.automaticReindexingDelay"],"assignmentContext":"vsliv368:30146709;binariesv615:30325510;f8hc8238:30694864;copilot_t_ci:31333650;6518g693:31463988;aj953862:31281341;42190218_ostrepl:31403339;56b7f661:31457055;ec5jj548:31422691;cp_cls_t_966_ss:31526232;cp_cls_t_1081:31454832;test_treatment2:31471001;ei9d7968:31496641;ghj88844:31499326;cp_cls_t_1082:31535311;logging_enabled_new:31498466;jb_cp_cls_t_632:31543129;ha629193:31508444;jbcp_cls_pctr_t:31531130;61138546:31518536;cp_intellij_t_nes:31548657;ihg5j128:31534457;allow-none:31555437;1h923230:31564177;treatment-23-1:31555779;unuse_dynamic_mcp:31555281;","configs":[{"Id":"vscode","Parameters":{"config.chat.subagentTool.customAgents":true,"config.github.copilot.nextEditSuggestions.enabled":true,"config.inlineChat.renderMode":"zone","config.sessions.chat.localAgent.enabled":false,"copilotappmodcontextmenuenabled":true,"copilotappmodproblemsviewenabled":false,"copilotchat.disableReplaceStringHealing":true,"copilotchat.hiddenModelBEditTool":"only_replace_string","copilotsearchagentenabled":true,"copilottransparenttokenrefresh":true,"copilot_ci":true,"cveremediatoragentenabled":true,"dynamic_mcp":false,"extensionEnabledApiProposalsFallback":"none","featureflag-23-1":true,"github.copilot.chat.agentDebugLog.enabled":true,"github.copilot.chat.agentDebugLog.fileLogging.enabled":true,"ideenablecopilotnes":true,"ideenablecopilotsemanticsearch":true,"javaCompletionSampling":true,"livesharecontinuousaa":true,"mindaroBinariesVersion":"1.0.20210615.1","new_test":true,"registerNuGetMcpServerEnabled":true,"suggestNativePreview":true,"test_t":"cindytest","workspace.embeddingIndex.automaticReindexingDelay":100000000}}]},"localExtensions":["DanielSanMedium.dscodegpt","eamodio.gitlens","golang.go","GrapeCity.gc-excelviewer","GulajavaMinistudio.mayukaithemevsc","jeff-hykin.better-cpp-syntax","ms-azuretools.vscode-containers","ms-azuretools.vscode-docker","ms-toolsai.jupyter","ms-toolsai.jupyter-keymap","ms-vscode-remote.remote-containers","ms-vscode-remote.remote-wsl","ms-vscode.cpptools-themes","ms-vscode.vscode-typescript-next","ms-vsliveshare.vsliveshare","rebornix.prolog","redhat.vscode-xml","teabyii.ayu","tinkertrain.theme-panda","vscode-icons-team.vscode-icons","yummygum.city-lights-theme"]}'
+ms-vscode-remote.remote-wsl: '{"extensionInstallDate":1612555733046,"VSCode.ABExp.FeatureData":{"features":["config.chat.subagentTool.customAgents","config.github.copilot.nextEditSuggestions.enabled","config.inlineChat.renderMode","config.sessions.chat.localAgent.enabledcf","copilotappmodcontextmenuenabled","copilotappmodproblemsviewenabledcf","copilotchat.disableReplaceStringHealing","copilotchat.hiddenModelBEditTool","copilotsearchagentenabled","copilottransparenttokenrefresh","copilot_ci","cveremediatoragentenabled","dynamic_mcpcf","extensionEnabledApiProposalsFallback","featureflag-23-1","github.copilot.chat.agentDebugLog.enabled","github.copilot.chat.agentDebugLog.fileLogging.enabled","ideenablecopilotnes","ideenablecopilotsemanticsearch","javaCompletionSampling","livesharecontinuousaa","mindaroBinariesVersion","new_test","registerNuGetMcpServerEnabled","suggestNativePreview","test_t","workspace.embeddingIndex.automaticReindexingDelay"],"assignmentContext":"vsliv368:30146709;binariesv615:30325510;f8hc8238:30694864;copilot_t_ci:31333650;6518g693:31463988;aj953862:31281341;42190218_ostrepl:31403339;56b7f661:31457055;ec5jj548:31422691;cp_cls_t_966_ss:31526232;cp_cls_t_1081:31454832;test_treatment2:31471001;ei9d7968:31496641;ghj88844:31499326;cp_cls_t_1082:31535311;logging_enabled_new:31498466;jb_cp_cls_t_632:31543129;ha629193:31508444;jbcp_cls_pctr_t:31531130;61138546:31518536;cp_intellij_t_nes:31548657;ihg5j128:31534457;allow-none:31555437;1h923230:31564177;treatment-23-1:31555779;unuse_dynamic_mcp:31555281;","configs":[{"Id":"vscode","Parameters":{"config.chat.subagentTool.customAgents":true,"config.github.copilot.nextEditSuggestions.enabled":true,"config.inlineChat.renderMode":"zone","config.sessions.chat.localAgent.enabled":false,"copilotappmodcontextmenuenabled":true,"copilotappmodproblemsviewenabled":false,"copilotchat.disableReplaceStringHealing":true,"copilotchat.hiddenModelBEditTool":"only_replace_string","copilotsearchagentenabled":true,"copilottransparenttokenrefresh":true,"copilot_ci":true,"cveremediatoragentenabled":true,"dynamic_mcp":false,"extensionEnabledApiProposalsFallback":"none","featureflag-23-1":true,"github.copilot.chat.agentDebugLog.enabled":true,"github.copilot.chat.agentDebugLog.fileLogging.enabled":true,"ideenablecopilotnes":true,"ideenablecopilotsemanticsearch":true,"javaCompletionSampling":true,"livesharecontinuousaa":true,"mindaroBinariesVersion":"1.0.20210615.1","new_test":true,"registerNuGetMcpServerEnabled":true,"suggestNativePreview":true,"test_t":"cindytest","workspace.embeddingIndex.automaticReindexingDelay":100000000}}]},"extensionUsed":true,"wsl.lastUpdateCheck":1786662380961,"wsl.downloadInProgress":false}'
+ms-vscode.cpptools: '{"CPP.0.21.0.Progress":300,"CPP.UserBucket":55,"ABTest.1":100,"ABTest.2":100,"ABTest.3":100,"CPP.0.21.0.IntelliSenseProgress":1000,"CPP.0.26.1.Progress":300,"CPP.0.26.1.checkForConflictingExtensions":false,"ABTest.4":100,"CPP.0.26.1.IntelliSenseProgress":1000,"CPP.0.26.2-insiders2.Progress":300,"CPP.0.26.2-insiders2.checkForConflictingExtensions":false,"CPP.0.26.2-insiders2.IntelliSenseProgress":1000,"CPP.0.26.2.Progress":300,"CPP.0.26.2.checkForConflictingExtensions":false,"CPP.0.26.2.IntelliSenseProgress":1000,"CPP.0.26.3.Progress":300,"CPP.0.26.3.checkForConflictingExtensions":false,"CPP.0.26.3.IntelliSenseProgress":1000,"CPP.0.27.0-insiders2.Progress":300,"CPP.0.27.0-insiders2.checkForConflictingExtensions":false,"CPP.showIntelliSenseFallbackMessage":false,"CPP.0.27.0-insiders3.Progress":100,"CPP.0.27.0.Progress":300,"CPP.0.27.0.checkForConflictingExtensions":false,"CPP.0.27.0.IntelliSenseProgress":1000,"CPP.0.27.1.Progress":300,"CPP.0.27.1.checkForConflictingExtensions":false,"CPP.0.27.1.IntelliSenseProgress":1000,"CPP.0.28.0-insiders.Progress":300,"CPP.0.28.0-insiders.checkForConflictingExtensions":false,"CPP.0.28.0-insiders.IntelliSenseProgress":1000,"CPP.0.28.0-insiders3.Progress":200,"CPP.0.28.0-insiders3.checkForConflictingExtensions":false,"CPP.0.28.0-insiders3.IntelliSenseProgress":1000,"CPP.0.28.0.Progress":100,"CPP.0.28.1.Progress":300,"CPP.0.28.1.checkForConflictingExtensions":false,"CPP.0.28.1.IntelliSenseProgress":1000,"CPP.0.28.2.Progress":300,"CPP.0.28.2.checkForConflictingExtensions":false,"CPP.0.28.2.IntelliSenseProgress":1000,"CPP.0.28.3.Progress":100,"CPP.0.29.0-insiders.Progress":100,"CPP.0.29.0.Progress":100,"CPP.1.0.0.Progress":100,"CPP.1.0.1.Progress":300,"CPP.1.0.1.checkForConflictingExtensions":false,"ABTest.5":"1.53.0","CPP.1.0.1.IntelliSenseProgress":1000,"CPP.1.2.0.Progress":300,"CPP.machineId":"86a925a31c232e9a13ae09a60de4e82ad935193405fb331c1f5af2788746f733","CPP.1.2.0.checkForConflictingExtensions":false,"CPP.1.2.0.IntelliSenseProgress":1000,"CPP.1.2.1.Progress":100,"CPP.1.2.2.Progress":100,"CPP.1.3.1.Progress":300,"CPP.promptForMacArchictureMismatch":true,"CPP.1.3.1.checkForConflictingExtensions":false,"CPP.1.4.0-insiders2.Progress":300,"CPP.1.4.0-insiders2.checkForConflictingExtensions":false,"CPP.1.4.0.Progress":100,"CPP.1.4.1.Progress":300,"CPP.1.4.1.checkForConflictingExtensions":false,"CPP.1.5.0-insiders3.Progress":300,"VSCode.ABExp.FeatureData":{"features":["invitationLink","installRecovery","livesharecontinuousaacf","reusableLinks","RemoveKernelToolbarInInteractiveWindowcf","portForwardingServiceEnabled-development","portForwardingServiceEnabled-staging","portForwardingServiceEnabled-production","mindaroBinariesVersion-1.0.20210702","mindaroBinariesVersion-1.0.20210723","account-aacf","config.C_Cpp.debugShortcut"],"assignmentContext":"vsliv695:30137379;vsins829:30139715;vsliv368cf:30146710;vsreu685:30147344;python383cf:30185419;vspor879:30202332;vspor708:30202333;vspor363:30204092;bridge0708:30335490;bridge0723:30353136;vsaa593cf:30376535;cppdebug:30492333;","configs":[{"Id":"vscode","Parameters":{"invitationLink":true,"installRecovery":true,"livesharecontinuousaa":false,"reusableLinks":true,"RemoveKernelToolbarInInteractiveWindow":false,"portForwardingServiceEnabled-development":true,"portForwardingServiceEnabled-staging":true,"portForwardingServiceEnabled-production":true,"mindaroBinariesVersion-1.0.20210702":"1.0.20210708.15","mindaroBinariesVersion-1.0.20210723":"1.0.20210723.6","account-aa":false,"config.C_Cpp.debugShortcut":true}}]},"CPP.1.5.1.Progress":100,"CPP.1.6.0.Progress":100,"CPP.1.7.1.Progress":100,"CPP.1.8.4.Progress":300,"CPP.migratedInsiders":true,"CPP.1.8.4.checkForConflictingExtensions":false,"CPP.1.8.4.IntelliSenseProgress":1000,"CPP.1.10.0.Progress":300,"CPP.1.10.0.ignoreMismatchedCompatibleVsix":false,"CPP.1.10.0.checkForConflictingExtensions":false,"CPP.1.10.0.IntelliSenseProgress":1000}'
+ms-vscode.powershell: '{"powerShellExtensionVersion":"2021.6.2"}'
+ms-vsliveshare.vsliveshare: '{"vsliveshare-first-activation-flag":"1.0.1056","firstActivationVersion":"1.0.1056","firstActivationTime":1572380528403,"abTests":{"currentTests":{},"evaluatedTests":{}},"isVSCodeAccountAuthEnabled":true,"haveShownWakeupNotification":true,"VSCode.ABExp.Features":["desyncfix","installRecovery","livesharecontinuousaacf","reusableLinks"],"wasDownloadCorrupted":false,"commandFirstRunTrackingShare":true,"VSCode.ABExp.FeatureData":{"features":["authProviderPicker","config.chat.subagentTool.customAgents","config.github.copilot.nextEditSuggestions.enabled","config.inlineChat.renderMode","config.sessions.chat.localAgent.enabledcf","copilotappmodcontextmenuenabled","copilotappmodproblemsviewenabledcf","copilotchat.disableReplaceStringHealing","copilotchat.hiddenModelBEditTool","copilotsearchagentenabled","copilottransparenttokenrefresh","copilot_ci","cveremediatoragentenabled","dynamic_mcpcf","extensionEnabledApiProposalsFallback","featureflag-23-1","followIndicator","github.copilot.chat.agentDebugLog.enabled","github.copilot.chat.agentDebugLog.fileLogging.enabled","ideenablecopilotnes","ideenablecopilotsemanticsearch","javaCompletionSampling","livesharecontinuousaa","mindaroBinariesVersion","nativeAuth","new_test","readWriteAnonymous","registerNuGetMcpServerEnabled","resyncOnMisappliedEdit","suggestNativePreview","test_t","workspace.embeddingIndex.automaticReindexingDelay"],"assignmentContext":"vsliv368:30146709;vsrea433:30283384;vsnat461:30259396;binariesv615:30325510;vsfol871:30383134;vslsresync:30385087;f8hc8238:30694864;copilot_t_ci:31333650;6518g693:31463988;aj953862:31281341;42190218_ostrepl:31403339;56b7f661:31457055;ec5jj548:31422691;cp_cls_t_966_ss:31526232;cp_cls_t_1081:31454832;test_treatment2:31471001;ei9d7968:31496641;ghj88844:31499326;cp_cls_t_1082:31535311;logging_enabled_new:31498466;jb_cp_cls_t_632:31543129;ha629193:31508444;jbcp_cls_pctr_t:31531130;61138546:31518536;cp_intellij_t_nes:31548657;ihg5j128:31534457;allow-none:31555437;1h923230:31564177;treatment-23-1:31555779;unuse_dynamic_mcp:31555281;","configs":[{"Id":"vscode","Parameters":{"authProviderPicker":true,"config.chat.subagentTool.customAgents":true,"config.github.copilot.nextEditSuggestions.enabled":true,"config.inlineChat.renderMode":"zone","config.sessions.chat.localAgent.enabled":false,"copilotappmodcontextmenuenabled":true,"copilotappmodproblemsviewenabled":false,"copilotchat.disableReplaceStringHealing":true,"copilotchat.hiddenModelBEditTool":"only_replace_string","copilotsearchagentenabled":true,"copilottransparenttokenrefresh":true,"copilot_ci":true,"cveremediatoragentenabled":true,"dynamic_mcp":false,"extensionEnabledApiProposalsFallback":"none","featureflag-23-1":true,"followIndicator":true,"github.copilot.chat.agentDebugLog.enabled":true,"github.copilot.chat.agentDebugLog.fileLogging.enabled":true,"ideenablecopilotnes":true,"ideenablecopilotsemanticsearch":true,"javaCompletionSampling":true,"livesharecontinuousaa":true,"mindaroBinariesVersion":"1.0.20210615.1","nativeAuth":true,"new_test":true,"readWriteAnonymous":true,"registerNuGetMcpServerEnabled":true,"resyncOnMisappliedEdit":true,"suggestNativePreview":true,"test_t":"cindytest","workspace.embeddingIndex.automaticReindexingDelay":100000000}}]},"aadv2AuthFix":true,"anonymousAuthReloadFlag":null,"wasForceReload":false}'
+vscode-icons-team.vscode-icons: '{"vsicons":{"version":"12.19.0","status":2,"welcomeShown":true}}'
+workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":true,"order":0},{"id":"workbench.view.search","pinned":true,"visible":true,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":true,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":true,"order":3},{"id":"workbench.view.extensions","pinned":true,"visible":true,"order":4},{"id":"workbench.view.remote","pinned":false,"visible":true,"order":4},{"id":"workbench.view.chat.sessions","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.test","pinned":true,"visible":true,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.objectExplorer","pinned":true,"visible":false,"order":9},{"id":"workbench.view.voiceTranscriptsContainer","pinned":true,"visible":false,"order":10},{"id":"workbench.view.extension.flutterPropertyEditorContainer","pinned":true,"visible":false,"order":11},{"id":"workbench.view.extension.flutterPropertyEditor","pinned":true,"visible":false,"order":11},{"id":"workbench.view.extension.gitlens","pinned":false,"visible":true,"order":16},{"id":"workbench.view.extension.CppRenameActivityBar","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.sidebarDevTools","pinned":true,"visible":false,"order":12},{"id":"workbench.view.extension.gitlensInspect","pinned":true,"visible":false,"order":17},{"id":"workbench.view.extension.PowerShellCommandExplorer","pinned":true,"visible":false,"order":10},{"id":"workbench.view.extension.gitlensPatch","pinned":true,"visible":false,"order":18},{"id":"workbench.view.extension.sidebarDevToolsContainer","pinned":true,"visible":false,"order":12},{"id":"workbench.view.extension.sidebarDevToolsInspectorContainer","pinned":true,"visible":false,"order":13},{"id":"workbench.view.extension.containersView","pinned":true,"visible":false,"order":20},{"id":"workbench.view.extension.sidebarWidgetPreviewContainer","pinned":true,"visible":false,"order":15},{"id":"workbench.view.extension.cmake-view","pinned":true,"visible":false,"order":22},{"id":"workbench.view.extension.liveshare","pinned":false,"visible":true,"order":24},{"id":"workbench.view.extension.jupyter","pinned":true,"visible":false,"order":21},{"id":"workbench.view.extension.flutter","pinned":true,"visible":false,"order":10},{"id":"workbench.view.extension.dockerView","pinned":true,"visible":true,"order":12},{"id":"workbench.view.extension.sidebarDevToolsDeepLinksContainer","pinned":true,"visible":false,"order":14},{"id":"workbench.view.extension.PowerShell","pinned":true,"visible":true,"order":23},{"id":"workbench.view.extension.cmake__viewContainer","pinned":true,"visible":false,"order":13},{"id":"workbench.view.extension.codeium","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.fountain-view","pinned":true,"visible":true,"order":25},{"id":"workbench.view.extension.latex-workshop-activitybar","pinned":true,"visible":false,"order":19},{"id":"workbench.view.extension.codegpt-sidebar-view","pinned":true,"visible":false,"order":9},{"id":"workbench.panel.chatSidebar","pinned":true,"visible":false,"order":100},{"id":"workbench.view.sync","pinned":true,"visible":false},{"id":"workbench.view.editSessions","pinned":true,"visible":false},{"id":"userDataProfiles","pinned":true,"visible":false}]'
+workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
+  \"themeIcon\":{\"id\":\"explorer-view-icon\"},\"name\":\"Explorer\",\"isBuilt\
+  in\":true,\"views\":[{},{},{},{\"when\":\"timelineHasProvider\"},{\"when\":\"\
+  npm:showScriptExplorer\"},{\"when\":\"config.dart.enablePub &&
+  dart-code:anyProjectLoaded\"},{},{\"when\":\"go.showExplorer\"},{\"when\":\"g\
+  o.showPackageOutline\"},{\"when\":\"liveshare:isCollaborating &&
+  liveshare:showExplorer\"}]},{\"id\":\"workbench.view.search\",\"themeIcon\":{\
+  \"id\":\"search-view-icon\"},\"name\":\"Search\",\"isBuiltin\":true,\"views\"\
+  :[{}]},{\"id\":\"workbench.view.scm\",\"themeIcon\":{\"id\":\"source-control-\
+  view-icon\"},\"name\":\"Source
+  Control\",\"isBuiltin\":true,\"views\":[{\"when\":\"scm.providerCount &&
+  scm.providerCount != '0'\"},{},{\"when\":\"scm.historyProviderCount &&
+  scm.historyProviderCount !=
+  '0'\"},{\"when\":\"!config.gitlens.views.scm.grouped.views.repositories &&
+  !gitlens:disabled &&
+  !gitlens:views:scm:grouped:views:repositories\"},{\"when\":\"!config.gitlens.\
+  views.scm.grouped.views.commits && !gitlens:disabled &&
+  !gitlens:views:scm:grouped:views:commits\"},{\"when\":\"!config.gitlens.views\
+  .scm.grouped.views.branches && !gitlens:disabled &&
+  !gitlens:views:scm:grouped:views:branches\"},{\"when\":\"!config.gitlens.view\
+  s.scm.grouped.views.remotes && !gitlens:disabled &&
+  !gitlens:views:scm:grouped:views:remotes\"},{\"when\":\"!config.gitlens.views\
+  .scm.grouped.views.stashes && !gitlens:disabled && !gitlens:hasVirtualFolders
+  &&
+  !gitlens:views:scm:grouped:views:stashes\"},{\"when\":\"!config.gitlens.views\
+  .scm.grouped.views.tags && !gitlens:disabled &&
+  !gitlens:views:scm:grouped:views:tags\"},{\"when\":\"!config.gitlens.views.sc\
+  m.grouped.views.worktrees && !gitlens:disabled && !gitlens:hasVirtualFolders
+  && !gitlens:plus:disabled &&
+  !gitlens:views:scm:grouped:views:worktrees\"},{\"when\":\"!config.gitlens.vie\
+  ws.scm.grouped.views.contributors && !gitlens:disabled &&
+  !gitlens:views:scm:grouped:views:contributors\"},{\"when\":\"config.gitlens.v\
+  iews.scm.grouped.views.branches && !gitlens:disabled ||
+  config.gitlens.views.scm.grouped.views.commits && !gitlens:disabled ||
+  config.gitlens.views.scm.grouped.views.contributors && !gitlens:disabled ||
+  config.gitlens.views.scm.grouped.views.launchpad && !gitlens:disabled ||
+  config.gitlens.views.scm.grouped.views.remotes && !gitlens:disabled ||
+  config.gitlens.views.scm.grouped.views.repositories && !gitlens:disabled ||
+  config.gitlens.views.scm.grouped.views.searchAndCompare && !gitlens:disabled
+  || config.gitlens.views.scm.grouped.views.stashes && !gitlens:disabled ||
+  config.gitlens.views.scm.grouped.views.tags && !gitlens:disabled ||
+  config.gitlens.views.scm.grouped.views.worktrees && !gitlens:disabled ||
+  gitlens:views:scm:grouped:views:branches && !gitlens:disabled ||
+  gitlens:views:scm:grouped:views:commits && !gitlens:disabled ||
+  gitlens:views:scm:grouped:views:contributors && !gitlens:disabled ||
+  gitlens:views:scm:grouped:views:launchpad && !gitlens:disabled ||
+  gitlens:views:scm:grouped:views:remotes && !gitlens:disabled ||
+  gitlens:views:scm:grouped:views:repositories && !gitlens:disabled ||
+  gitlens:views:scm:grouped:views:searchAndCompare && !gitlens:disabled ||
+  gitlens:views:scm:grouped:views:stashes && !gitlens:disabled ||
+  gitlens:views:scm:grouped:views:tags && !gitlens:disabled ||
+  gitlens:views:scm:grouped:views:worktrees &&
+  !gitlens:disabled\"}]},{\"id\":\"workbench.view.debug\",\"themeIcon\":{\"id\":\
+  \"run-view-icon\"},\"name\":\"Run and
+  Debug\",\"isBuiltin\":true,\"views\":[{\"when\":\"debugUx ==
+  'simple'\"},{\"when\":\"debugUx == 'default'\"},{\"when\":\"debugUx ==
+  'default'\"},{\"when\":\"debugUx ==
+  'default'\"},{\"when\":\"loadedScriptsSupported && debugUx ==
+  'default'\"},{\"when\":\"breakpointsExist || hasDebugged || debugUx ==
+  'default'\"},{\"when\":\"debugType == 'pwa-chrome' || debugType ==
+  'pwa-editor-browser' || debugType ==
+  'pwa-msedge'\"},{\"when\":\"jsDebugHasExcludedCallers && debugType ==
+  'node-terminal' || jsDebugHasExcludedCallers && debugType == 'pwa-chrome' ||
+  jsDebugHasExcludedCallers && debugType == 'pwa-editor-browser' ||
+  jsDebugHasExcludedCallers && debugType == 'pwa-extensionHost' ||
+  jsDebugHasExcludedCallers && debugType == 'pwa-msedge' ||
+  jsDebugHasExcludedCallers && debugType ==
+  'pwa-node'\"},{\"when\":\"jsDebugNetworkAvailable\"},{\"when\":\"cpptools.ena\
+  bleSshTargetsView\"}]},{\"id\":\"workbench.view.extensions\",\"themeIcon\":{\
+  \"id\":\"extensions-view-icon\"},\"name\":\"Extensions\",\"isBuiltin\":true,\
+  \"views\":[{\"when\":\"defaultExtensionViews && extensionsGalleryStatus ==
+  'accessDenied' || defaultExtensionViews && extensionsGalleryStatus ==
+  'requiresSignIn' || searchMarketplaceExtensions && extensionsGalleryStatus ==
+  'accessDenied' || searchMarketplaceExtensions && extensionsGalleryStatus ==
+  'requiresSignIn'\"},{\"when\":\"defaultExtensionViews\"},{\"when\":\"searchEx\
+  tensionUpdates ||
+  searchOutdatedExtensions\"},{\"when\":\"recommendedExtensions &&
+  workbenchState != 'empty'\"},{\"when\":\"defaultExtensionViews && hasGallery
+  && !hasInstalledExtensions\"},{\"when\":\"searchExtensionUpdates ||
+  searchRecentlyUpdatedExtensions\"},{\"when\":\"recommendedExtensions\"},{\"wh\
+  en\":\"defaultExtensionViews && hasGallery &&
+  !config.extensions.showRecommendationsOnlyOnDemand &&
+  !sortByUpdateDate\"},{\"when\":\"defaultExtensionViews &&
+  hasInstalledExtensions\"},{\"when\":\"defaultExtensionViews &&
+  hasInstalledMcpServers && !chatSetupDisabledInWorkspace &&
+  !chatSetupHidden\"},{\"when\":\"config.chat.mcp.gallery.enabled &&
+  defaultExtensionViews && !chatSetupDisabledInWorkspace && !chatSetupHidden &&
+  !hasInstalledMcpServers && mcpServersGalleryStatus == 'available' ||
+  config.chat.mcp.gallery.serviceUrl && defaultExtensionViews &&
+  !chatSetupDisabledInWorkspace && !chatSetupHidden && !hasInstalledMcpServers
+  && mcpServersGalleryStatus == 'available' || defaultExtensionViews &&
+  !chatSetupDisabledInWorkspace && !chatSetupHidden && !hasInstalledMcpServers
+  && mcpServersGalleryStatus == 'available' && productQualityType !=
+  'stable'\"},{\"when\":\"defaultExtensionViews && !chatSetupDisabledInWorkspace
+  && !chatSetupHidden && !config.chat.mcp.gallery.enabled &&
+  !config.chat.mcp.gallery.serviceUrl && !hasInstalledMcpServers &&
+  mcpServersGalleryStatus == 'available' && productQualityType ==
+  'stable'\"},{\"when\":\"defaultExtensionViews &&
+  hasInstalledExtensions\"},{\"when\":\"defaultExtensionViews &&
+  hasInstalledAgentPlugins &&
+  !chatSetupHidden\"},{\"when\":\"defaultExtensionViews && !chatSetupHidden &&
+  !hasInstalledAgentPlugins\"},{\"when\":\"hasGallery &&
+  searchMarketplaceExtensions\"},{\"when\":\"installedExtensions ||
+  searchInstalledExtensions\"},{\"when\":\"searchEnabledExtensions\"},{\"when\":\
+  \"searchDisabledExtensions\"},{\"when\":\"searchBuiltInExtensions\"},{\"when\
+  \":\"searchWorkspaceUnsupportedExtensions\"},{\"when\":\"builtInExtensions\"}\
+  ,{\"when\":\"builtInExtensions\"},{\"when\":\"builtInExtensions\"},{\"when\":\
+  \"searchUnsupportedWorkspaceExtensions\"},{\"when\":\"searchUnsupportedWorksp\
+  aceExtensions\"},{\"when\":\"searchUnsupportedWorkspaceExtensions &&
+  virtualWorkspace\"},{\"when\":\"searchUnsupportedWorkspaceExtensions &&
+  virtualWorkspace\"},{\"when\":\"searchDeprecatedExtensions\"},{\"when\":\"sea\
+  rchRestartRequiredExtensions\"},{\"when\":\"searchAgentPlugins &&
+  !chatSetupHidden\"},{\"when\":\"config.chat.mcp.gallery.enabled &&
+  searchMcpServers && !chatSetupDisabledInWorkspace && !chatSetupHidden &&
+  mcpServersGalleryStatus == 'available' || config.chat.mcp.gallery.serviceUrl
+  && searchMcpServers && !chatSetupDisabledInWorkspace && !chatSetupHidden &&
+  mcpServersGalleryStatus == 'available' || searchMcpServers &&
+  !chatSetupDisabledInWorkspace && !chatSetupHidden && mcpServersGalleryStatus
+  == 'available' && productQualityType !=
+  'stable'\"},{\"when\":\"searchMcpServers && !chatSetupDisabledInWorkspace &&
+  !chatSetupHidden && !config.chat.mcp.gallery.enabled &&
+  !config.chat.mcp.gallery.serviceUrl && mcpServersGalleryStatus == 'available'
+  && productQualityType ==
+  'stable'\"}]},{\"id\":\"workbench.view.remote\",\"themeIcon\":{\"id\":\"remot\
+  e-explorer-view-icon\"},\"name\":\"Remote
+  Explorer\",\"isBuiltin\":true,\"views\":[{\"when\":\"!hideConnectCommands\"},{\
+  \"when\":\"true\"},{\"when\":\"remote-containers:showDetails &&
+  !hideConnectCommands\"},{\"when\":\"!hideConnectCommands\"}]},{\"id\":\"workb\
+  ench.view.chat.sessions\",\"name\":\"Agent
+  Sessions\",\"isBuiltin\":false},{\"id\":\"workbench.view.extension.test\",\"t\
+  hemeIcon\":{\"id\":\"test-view-icon\"},\"name\":\"Testing\",\"isBuiltin\":tru\
+  e,\"views\":[{\"when\":\"testing.providerCount >
+  0\"},{\"when\":\"testing.isTestCoverageOpen\"},{},{\"when\":\"go.hasProfiles\
+  \"}]},{\"id\":\"workbench.view.extension.references-view\",\"themeIcon\":{\"id\
+  \":\"references\"},\"name\":\"References\",\"isBuiltin\":false,\"views\":[{\"\
+  when\":\"reference-list.isActive\"},{\"when\":\"cpptools.hasReferencesResults\
+  \"}]},{\"id\":\"workbench.view.extension.objectExplorer\",\"isBuiltin\":false\
+  },{\"id\":\"workbench.view.voiceTranscriptsContainer\",\"themeIcon\":{\"id\":\
+  \"voice-transcripts-view-icon\"},\"name\":\"Voice
+  Transcripts\",\"isBuiltin\":true,\"views\":[{\"when\":\"voiceTranscripts.show\
+  View\"}]},{\"id\":\"workbench.view.extension.flutterPropertyEditorContainer\",\
+  \"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/dart-code.dart-cod\
+  e-3.140.0/media/icons/sidebar/property_editor.svg\",\"scheme\":\"file\"},\"na\
+  me\":\"Flutter Property
+  Editor\",\"isBuiltin\":false,\"views\":[{\"when\":\"dart-code:anyFlutterProje\
+  ctLoaded &&
+  dart-code:flutterPropertyEditorSupported\"}]},{\"id\":\"workbench.view.extens\
+  ion.flutterPropertyEditor\",\"name\":\"Flutter Property
+  Editor\",\"isBuiltin\":false},{\"id\":\"workbench.view.extension.gitlens\",\"\
+  themeIcon\":{\"id\":\"gitlens-gitlens\"},\"name\":\"GitLens\",\"isBuiltin\":f\
+  alse,\"views\":[{\"when\":\"!gitlens:plus:disabled ||
+  gitlens:plus:disabled:view:overrides =~
+  /(?:^|\\\\|)gitlens\\\\.views\\\\.graph(?:\\\\||$)/\"},{},{},{\"when\":\"!con\
+  fig.gitlens.views.scm.grouped.views.launchpad &&
+  !gitlens:views:scm:grouped:views:launchpad\"},{\"when\":\"config.gitlens.clou\
+  dPatches.enabled && gitlens:gk:organization:drafts:enabled &&
+  !gitlens:hasVirtualFolders &&
+  !gitlens:untrusted\"},{\"when\":\"!gitlens:hasVirtualFolders &&
+  !gitlens:untrusted\"}]},{\"id\":\"workbench.view.extension.CppRenameActivityB\
+  ar\",\"isBuiltin\":false},{\"id\":\"workbench.view.extension.sidebarDevTools\
+  \",\"name\":\"Flutter
+  DevTools\",\"isBuiltin\":false},{\"id\":\"workbench.view.extension.gitlensIns\
+  pect\",\"themeIcon\":{\"id\":\"gitlens-gitlens-inspect\"},\"name\":\"GitLens
+  Inspect\",\"isBuiltin\":false,\"views\":[{\"when\":\"!gitlens:disabled\"},{\"\
+  when\":\"gitlens:views:pullRequest:visible &&
+  !gitlens:disabled\"},{\"when\":\"!gitlens:disabled &&
+  !gitlens:hasVirtualFolders\"},{\"when\":\"!config.gitlens.views.scm.grouped.v\
+  iews.fileHistory && !gitlens:disabled &&
+  !gitlens:views:scm:grouped:views:fileHistory\"},{\"when\":\"!gitlens:disabled
+  && !gitlens:plus:disabled || !gitlens:disabled &&
+  gitlens:plus:disabled:view:overrides =~
+  /(?:^|\\\\|)gitlens\\\\.views\\\\.timeline(?:\\\\||$)/\"},{\"when\":\"!config\
+  .gitlens.views.scm.grouped.views.searchAndCompare && !gitlens:disabled &&
+  !gitlens:views:scm:grouped:views:searchAndCompare\"}]},{\"id\":\"workbench.vi\
+  ew.extension.PowerShellCommandExplorer\",\"isBuiltin\":false},{\"id\":\"workb\
+  ench.view.extension.gitlensPatch\",\"themeIcon\":{\"id\":\"gitlens-cloud-patch\
+  \"},\"name\":\"GitLens
+  Patch\",\"isBuiltin\":false,\"views\":[{\"when\":\"config.gitlens.cloudPatche\
+  s.enabled && gitlens:views:patchDetails:mode &&
+  !gitlens:untrusted\"}]},{\"id\":\"workbench.view.extension.sidebarDevToolsCon\
+  tainer\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/dart-code\
+  .dart-code-3.140.0/media/icons/sidebar/devtools.svg\",\"scheme\":\"file\"},\"\
+  name\":\"Flutter
+  DevTools\",\"isBuiltin\":false,\"views\":[{\"when\":\"dart-code:anyFlutterPro\
+  jectLoaded &&
+  dart-code:devToolsSidebar.cpu-profiler\"},{\"when\":\"dart-code:anyFlutterPro\
+  jectLoaded &&
+  dart-code:devToolsSidebar.memory\"},{\"when\":\"dart-code:anyFlutterProjectLo\
+  aded &&
+  dart-code:devToolsSidebar.performance\"},{\"when\":\"dart-code:anyFlutterProj\
+  ectLoaded &&
+  dart-code:devToolsSidebar.network\"},{\"when\":\"dart-code:anyFlutterProjectL\
+  oaded &&
+  dart-code:devToolsSidebar.logging\"}]},{\"id\":\"workbench.view.extension.sid\
+  ebarDevToolsInspectorContainer\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSI\
+  ON_DATA_PATH%%/dart-code.dart-code-3.140.0/media/icons/sidebar/inspector.svg\
+  \",\"scheme\":\"file\"},\"name\":\"Flutter DevTools:
+  Inspector\",\"isBuiltin\":false,\"views\":[{\"when\":\"dart-code:anyFlutterPr\
+  ojectLoaded &&
+  dart-code:devToolsSidebar.inspector\"}]},{\"id\":\"workbench.view.extension.c\
+  ontainersView\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/ms\
+  -azuretools.vscode-containers-2.4.5/resources/ContainerTools.svg\",\"scheme\":\
+  \"file\"},\"name\":\"Containers\",\"isBuiltin\":false,\"views\":[{},{},{},{},\
+  {},{},{}]},{\"id\":\"workbench.view.extension.sidebarWidgetPreviewContainer\",\
+  \"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/dart-code.dart-cod\
+  e-3.140.0/media/icons/sidebar/widget_preview.svg\",\"scheme\":\"file\"},\"name\
+  \":\"Flutter Widget
+  Preview\",\"isBuiltin\":false,\"views\":[{\"when\":\"dart-code:anyFlutterProj\
+  ectLoaded &&
+  dart-code:sidebar.widgetPreview\"}]},{\"id\":\"workbench.view.extension.cmake\
+  -view\",\"themeIcon\":{\"id\":\"cmake-tools-cmake-view-2\"},\"name\":\"CMake\
+  \",\"isBuiltin\":false,\"views\":[{\"when\":\"cmake:enableFullFeatureSet\"},{\
+  \"when\":\"cmake:enableFullFeatureSet\"},{\"when\":\"cmake:enableFullFeatureS\
+  et\"},{\"when\":\"cmake:enableFullFeatureSet\"}]},{\"id\":\"workbench.view.ex\
+  tension.liveshare\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%\
+  %/ms-vsliveshare.vsliveshare-1.1.122/images/dark/liveshare.svg\",\"scheme\":\
+  \"file\"},\"name\":\"Live
+  Share\",\"isBuiltin\":false,\"views\":[{},{\"when\":\"liveshare:isCollaborati\
+  ng && liveshare:showExplorer &&
+  liveshare:showHelpViewlet\"},{\"when\":\"config.liveshare.teamStatus ||
+  liveshare:isTeamMember\"}]},{\"id\":\"workbench.view.extension.jupyter\",\"th\
+  emeIcon\":{\"id\":\"notebook\"},\"name\":\"Jupyter\",\"isBuiltin\":false,\"vi\
+  ews\":[]},{\"id\":\"workbench.view.extension.flutter\",\"iconUrl\":{\"$mid\":\
+  1,\"path\":\"%%EXTENSION_DATA_PATH%%/dart-code.dart-code-3.140.0/media/icons/\
+  sidebar/flutter.svg\",\"scheme\":\"file\"},\"name\":\"Flutter\",\"isBuiltin\"\
+  :false,\"views\":[{\"when\":\"dart-code:anyFlutterProjectLoaded\"}]},{\"id\":\
+  \"workbench.view.extension.dockerView\",\"name\":\"Docker\",\"isBuiltin\":fal\
+  se},{\"id\":\"workbench.view.extension.sidebarDevToolsDeepLinksContainer\",\"\
+  iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/dart-code.dart-code-\
+  3.140.0/media/icons/sidebar/deep_links.svg\",\"scheme\":\"file\"},\"name\":\"\
+  Flutter DevTools: Deep
+  Links\",\"isBuiltin\":false,\"views\":[{\"when\":\"dart-code:anyFlutterProjec\
+  tLoaded &&
+  dart-code:devToolsSidebar.deep-links\"}]},{\"id\":\"workbench.view.extension.\
+  PowerShell\",\"themeIcon\":{\"id\":\"terminal-powershell\"},\"name\":\"PowerS\
+  hell\",\"isBuiltin\":false,\"views\":[{\"when\":\"config.powershell.sideBar.C\
+  ommandExplorerVisibility\"}]},{\"id\":\"workbench.view.extension.cmake__viewC\
+  ontainer\",\"isBuiltin\":false},{\"id\":\"workbench.view.extension.codeium\",\
+  \"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/codeium.codeium-1.\
+  48.2/assets/windsurf.svg\",\"scheme\":\"file\"},\"name\":\"Windsurf\",\"isBui\
+  ltin\":false,\"views\":[{}]},{\"id\":\"workbench.view.extension.fountain-view\
+  \",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/piersdeseillign\
+  y.betterfountain-1.14.2/flaticon.svg\",\"scheme\":\"file\"},\"name\":\"Founta\
+  in\",\"isBuiltin\":false,\"views\":[{},{},{},{},{}]},{\"id\":\"workbench.view\
+  .extension.latex-workshop-activitybar\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%\
+  EXTENSION_DATA_PATH%%/james-yu.latex-workshop-10.18.0/icons/activity-bar.svg\
+  \",\"scheme\":\"file\"},\"name\":\"LaTeX\",\"isBuiltin\":false,\"views\":[{\"\
+  when\":\"latex-workshop:enabled\"},{\"when\":\"latex-workshop:enabled\"},{\"w\
+  hen\":\"latex-workshop:enabled\"}]},{\"id\":\"workbench.view.extension.codegp\
+  t-sidebar-view\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/d\
+  anielsanmedium.dscodegpt-3.24.45/media/code_gpt_bar.svg\",\"scheme\":\"file\"\
+  },\"name\":\"CodeGPT
+  Chat\",\"isBuiltin\":false,\"views\":[{}]},{\"id\":\"workbench.panel.chatSide\
+  bar\",\"name\":\"Chat\",\"isBuiltin\":false},{\"id\":\"workbench.view.sync\",\
+  \"themeIcon\":{\"id\":\"settings-sync-view-icon\"},\"name\":\"Settings
+  Sync\",\"isBuiltin\":true,\"views\":[{\"when\":\"enableSyncConflictsView &&
+  hasConflicts\"},{\"when\":\"enableSyncActivityViews &&
+  userDataSyncAccountStatus == 'available' && syncStatus !=
+  'uninitialized'\"},{\"when\":\"enableSyncActivityViews &&
+  userDataSyncAccountStatus == 'available' && syncStatus !=
+  'uninitialized'\"},{\"when\":\"enableSyncActivityViews &&
+  userDataSyncAccountStatus == 'available' && syncStatus !=
+  'uninitialized'\"},{\"when\":\"enableSyncActivityViews\"},{\"when\":\"enableS\
+  yncActivityViews\"}]},{\"id\":\"workbench.view.editSessions\",\"themeIcon\":{\
+  \"id\":\"edit-sessions-view-icon\"},\"name\":\"Cloud
+  Changes\",\"isBuiltin\":true,\"views\":[{\"when\":\"editSessionsShowView\"}]}\
+  ,{\"id\":\"userDataProfiles\",\"name\":\"Profiles\",\"isBuiltin\":false}]"
+workbench.activityBar.hidden: "false"
+workbench.activityBar.location: default
+workbench.auxiliaryBar.empty: "false"
+workbench.auxiliaryBar.lastNonMaximizedSize: "300"
+workbench.auxiliarybar.pinnedPanels: '[{"id":"workbench.panel.chat","pinned":true,"visible":false,"order":1},{"id":"workbench.viewContainer.agentSessions","pinned":true,"visible":false,"order":6},{"id":"workbench.panel.chatEditing","pinned":true,"visible":false,"order":101}]'
+workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.panel.chat","themeIcon":{"id":"chat-view-icon"},"name":"Chat","isBuiltin":true,"views":[{"when":"chatExtensionInvalid
+  && !chatAccountPolicyGateActive || chatPanelParticipantRegistered &&
+  !chatAccountPolicyGateActive || !chatAccountPolicyGateActive &&
+  !chatSetupDisabledInWorkspace &&
+  !chatSetupHidden"}]},{"id":"workbench.viewContainer.agentSessions","name":"Agents","isBuiltin":false},{"id":"workbench.panel.chatEditing","name":"Copilot
+  Edits","isBuiltin":false}]'
+workbench.auxiliarybar.size: "300"
+workbench.auxiliaryBar.size: "240"
+workbench.editor.languageDetectionOpenedLanguages.global: '[["javascript",true],["dockercompose",true],["dockerfile",true],["python",true],["ignore",true],["nushell",true],["properties",true],["lua",true],["markdown",true],["json",true],["plaintext",true],["yaml",true]]'
+workbench.explorer.views.state.hidden: '[{"id":"workbench.explorer.fileView","isHidden":false},{"id":"outline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":false},{"id":"mavenProjects","isHidden":false},{"id":"npm","isHidden":false},{"id":"timeline","isHidden":false},{"id":"gitlens.views.repositories:explorer","isHidden":false},{"id":"gitlens.views.fileHistory:explorer","isHidden":false},{"id":"gitlens.views.lineHistory:explorer","isHidden":false},{"id":"gitlens.views.compare:explorer","isHidden":false},{"id":"gitlens.views.search:explorer","isHidden":false},{"id":"liveshare.session.explorer","isHidden":false},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"dartPackages","isHidden":false},{"id":"dartDependencyTree","isHidden":false},{"id":"dockerContainers","isHidden":false},{"id":"dockerImages","isHidden":false},{"id":"dockerRegistries","isHidden":false},{"id":"dockerNetworks","isHidden":false},{"id":"dockerVolumes","isHidden":false},{"id":"vscode-docker.views.dockerContexts","isHidden":false},{"id":"vscode-docker.views.help","isHidden":false},{"id":"objectExplorer","isHidden":false},{"id":"queryHistory","isHidden":false},{"id":"javaProjectExplorer","isHidden":false},{"id":"go.explorer","isHidden":false},{"id":"opencl-devices-explorer","isHidden":false},{"id":"codeium.chatPanelView","isHidden":false},{"id":"go.package.outline","isHidden":false}]'
+workbench.grid.height: "1032"
+workbench.grid.size: '{"height":1032,"width":960}'
+workbench.grid.width: "960"
+workbench.newDefaultThemeNotification: "true"
+workbench.panel.alignment: center
+workbench.panel.chat.hidden: '[{"id":"workbench.panel.chat.view.copilot","isHidden":false}]'
+workbench.panel.dimension: bottom
+workbench.panel.lastNonMaximizedHeight: "300"
+workbench.panel.lastNonMaximizedWidth: "300"
+workbench.panel.markers.hidden: '[{"id":"workbench.panel.markers.view","isHidden":false}]'
+workbench.panel.output.hidden: '[{"id":"workbench.panel.output","isHidden":false}]'
+workbench.panel.pinnedPanels: '[{"id":"workbench.panel.testResults","pinned":true,"visible":false,"order":3},{"id":"terminal","pinned":true,"visible":true,"order":3},{"id":"~remote.forwardedPortsContainer","pinned":true,"visible":true,"order":5},{"id":"workbench.view.extension.gitlensPanel","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.jupyter-variables","pinned":true,"visible":false,"order":7},{"id":"workbench.panel.markers","pinned":true,"visible":true,"order":0},{"id":"workbench.panel.output","pinned":true,"visible":false,"order":1},{"id":"workbench.panel.repl","pinned":true,"visible":true,"order":2},{"id":"workbench.panel.comments","pinned":true,"visible":false,"order":10},{"id":"refactorPreview","pinned":true,"visible":false}]'
+workbench.panel.placeholderPanels: '[{"id":"workbench.panel.testResults","themeIcon":{"id":"test-results-icon"},"name":"Test
+  Results","isBuiltin":true,"views":[{"when":"testing.hasAnyResults"}]},{"id":"terminal","themeIcon":{"id":"terminal-view-icon"},"name":"Terminal","isBuiltin":true,"views":[{}]},{"id":"~remote.forwardedPortsContainer","themeIcon":{"id":"ports-view-icon"},"name":"Ports","isBuiltin":true,"views":[{}]},{"id":"workbench.view.extension.gitlensPanel","themeIcon":{"id":"gitlens-graph"},"name":"GitLens","isBuiltin":false,"views":[]},{"id":"workbench.view.extension.jupyter-variables","themeIcon":{"id":"notebook"},"name":"Jupyter","isBuiltin":false,"views":[{"when":"jupyter.hasNativeNotebookOrInteractiveWindowOpen"},{"when":"jupyter.hasNativeNotebookOrInteractiveWindowOpen
+  &&
+  jupyter:showTagsExplorer"}]},{"id":"workbench.panel.markers","themeIcon":{"id":"markers-view-icon"},"name":"Problems","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.output","themeIcon":{"id":"output-view-icon"},"name":"Output","isBuiltin":true,"views":[]},{"id":"workbench.panel.repl","themeIcon":{"id":"debug-console-view-icon"},"name":"Debug
+  Console","isBuiltin":true,"views":[{"when":"debuggersAvailable"}]},{"id":"workbench.panel.comments","name":"Comments","isBuiltin":false},{"id":"refactorPreview","themeIcon":{"id":"refactor-preview-view-icon"},"name":"Refactor
+  Preview","isBuiltin":true,"views":[{"when":"refactorPreview.enabled"}]}]'
+workbench.panel.repl.hidden: '[{"id":"workbench.panel.repl.view","isHidden":false}]'
+workbench.panel.size: "385"
+workbench.panel.terminal.hidden: '[{"id":"workbench.panel.terminal","isHidden":false}]'
+workbench.panel.testResults.state.hidden: '[{"id":"workbench.panel.testResults.view","isHidden":false}]'
+workbench.scm.views.state.hidden: '[{"id":"workbench.scm.repositories","isHidden":true},{"id":"workbench.scm","isHidden":false},{"id":"gitlens.views.commits","isHidden":false},{"id":"gitlens.views.repositories","isHidden":true},{"id":"gitlens.views.fileHistory","isHidden":false},{"id":"gitlens.views.lineHistory","isHidden":true},{"id":"gitlens.views.branches","isHidden":false},{"id":"gitlens.views.remotes","isHidden":false},{"id":"gitlens.views.stashes","isHidden":false},{"id":"gitlens.views.tags","isHidden":false},{"id":"gitlens.views.contributors","isHidden":true},{"id":"gitlens.views.searchAndCompare","isHidden":false},{"id":"gitlens.views.worktrees","isHidden":false},{"id":"gitlens.views.commitDetails","isHidden":false},{"id":"workbench.scm.sync","isHidden":false},{"id":"gitlens.views.scm.grouped","isHidden":false},{"id":"workbench.scm.history","isHidden":false}]'
+workbench.sideBar.position: "0"
+workbench.sidebar.size: "236"
+workbench.sideBar.size: "216"
+workbench.statusBar.hidden: "false"
+workbench.statusbar.hidden: '["status.workspaceTrust.9dc0ed77a95acbf4310e69db4466d99b","status.workspaceTrust.7a42a5076b04729159f47fb02af8f131","status.workspaceTrust.71a92c663c0faa9a6a6f53b15387206b","status.workspaceTrust.678947162d073941e5c9bc4209c77682","status.workspaceTrust.3bd8992257a56514d898cb1161eee959","status.workspaceTrust.ee8c0ef1eac1014680158ef38fa32717","status.workspaceTrust.75844c375214c125252a48d135aae525","status.workspaceTrust.6015677bf8acd36e9bc168aa83c1e225","status.workspaceTrust.7aa338e87ee0d74872d2962165ceb575","status.workspaceTrust.1628105212532","status.workspaceTrust.6ae8d5fc407036ea54a40922f4c4bc83","status.workspaceTrust.d2e99677415a19e4496feb680b33c3e2","status.workspaceTrust.de304947e2f62da3293861f0f63c6c15","status.workspaceTrust.c8e3f261848bc2e520bac61cf7dcf53c","status.workspaceTrust.32828f8d1c1030d04bc58aeb56de28cb","status.workspaceTrust.1628288108582","status.workspaceTrust.1629839395169","status.workspaceTrust.1629839942906","status.workspaceTrust.1629855067822","status.workspaceTrust.1629855115760","status.workspaceTrust.1629855162074","status.workspaceTrust.1630086793488","status.workspaceTrust.93b5a560ee2619e330ca454a8cfdcef8","status.workspaceTrust.1631123384948","status.workspaceTrust.1631296903273","status.workspaceTrust.e351a508dc6b18be8b4a561e8c4e17ac","status.workspaceTrust.745e54fac71b791a4b9ca7d215414f0e","status.workspaceTrust.fb5a9010e0c79416a4c204fd548427a5","status.workspaceTrust.a642e49ed1a94677154807d9ee46bf7e","status.workspaceTrust.e08a6fbdde46bc7a5a1b7a0510917868","status.workspaceTrust.1635547918604","status.workspaceTrust.1635950042822","status.workspaceTrust.1636393393532","status.workspaceTrust.4d1f0450ea3dfcdd870c64f36003bf93","status.workspaceTrust.474c293b712d0cd34b6aad8f846bd779","status.workspaceTrust.1636500744746","status.workspaceTrust.3888d9cb95d1da8f61e94477474d3b3c","status.workspaceTrust.9ab79abae49239524d6fe6a03024b805","status.workspaceTrust.de5facf264c21da191100e5b4242bc33","status.workspaceTrust.079f5922cb70745ffffa4fab7a4dbaf9","status.workspaceTrust.35f782d1e22261ef1da3ee2eccf17c4b","status.workspaceTrust.282ffc8e2b1fd97c9e257da87c9b81ad","status.workspaceTrust.c7d513a5b2ffa1dc7ce712b64cf1a6fa","status.workspaceTrust.ae3d6476b146b1dd724882d04b516cd6","status.workspaceTrust.1640294864450","status.workspaceTrust.d8c4d163b8ed9d5077d88994df00e539","status.workspaceTrust.1644086253150","status.workspaceTrust.9aec06f0feea60c0d8a84909931db28f","status.workspaceTrust.f659a3a8b9ef7e3f2ff5aa834febf32c","status.workspaceTrust.1644283987506","status.workspaceTrust.1644618877187","status.workspaceTrust.1644620536939","status.workspaceTrust.1646028163897","status.workspaceTrust.806a357fb24e0b171e4e4abd5771df05","status.workspaceTrust.9752d2838f37c7575756396019bf19f8","status.workspaceTrust.5f71a8667560838b7048f916154e79fa","status.workspaceTrust.1646414108404","status.workspaceTrust.58f8fc216f1827466be5ec3ddbb6c755","status.workspaceTrust.5ec57b192193a01e830452623c80a820","status.workspaceTrust.1649030998664","status.workspaceTrust.2e008b675a03818b4c4443a6f57b5677","status.workspaceTrust.a6d8a60eef7d8a4cd6353f4dd980c966","status.workspaceTrust.fd8b8fa494a756b0226ec41cb01bc040","status.workspaceTrust.1655146144891","status.workspaceTrust.2a3e721fe19c884f194019d6917e5429","status.workspaceTrust.1655840896254","status.workspaceTrust.eff92308cac60de2e445a02aedca2f4a","status.workspaceTrust.1658513788562","status.workspaceTrust.1658516782944","status.workspaceTrust.1658863845582","status.workspaceTrust.1659387798814","status.workspaceTrust.1659393116365","status.workspaceTrust.1df1e23c0383fbef5df24d7370a75da1","status.workspaceTrust.9190fd28df59f107122401ffeb276b9e","status.workspaceTrust.1660765180910","status.workspaceTrust.31ccb8c3cbef56e8231c9bfdf11b282c","status.workspaceTrust.f221c4b0ef586683012a9a1415082e84","status.workspaceTrust.d560cd491a59c53bfa4bcea6776d5768","status.workspaceTrust.630f20b72537aac804e952b275518eac","status.workspaceTrust.76de8ed1262b4ae89c79488b897b716f","status.workspaceTrust.1665094903915","status.workspaceTrust.a1dd39bf69906779ce90d8395437bbcd","status.workspaceTrust.1665094986297","status.workspaceTrust.f3350185e6b623489f571f2d988be615","status.workspaceTrust.1666220617064","status.workspaceTrust.25c092aebe0a67fb01c11eea4dee7784","status.workspaceTrust.1667325197644","status.workspaceTrust.1668016739098","status.workspaceTrust.1669051343710","status.workspaceTrust.1670441844096","status.workspaceTrust.483eb36409ab96f5260d8e79f73cebf5","status.workspaceTrust.1674062421851","status.workspaceTrust.1674063019023","status.workspaceTrust.1674061740230","status.workspaceTrust.1678912415762","status.workspaceTrust.1679087138311","status.workspaceTrust.ba4f6891553c1ebecb214eecd28934aa","status.workspaceTrust.4c040640823f931d48c8ad0007baaf15","status.workspaceTrust.1679089507095","status.workspaceTrust.28178962cab5ac4c42a952dabc527aca","status.workspaceTrust.1c682ccc9bd4423a523d4735bbff71c0","status.workspaceTrust.1679633919109","status.workspaceTrust.1679679541974","status.workspaceTrust.55dc7b11f29ada3b9085a86e20e340cf","status.workspaceTrust.1680727152242","status.workspaceTrust.1680732247589","status.workspaceTrust.3579a1ae59755bbe48d68492b297e3be","status.workspaceTrust.1682442435718","status.workspaceTrust.1682617200884","status.workspaceTrust.1683318312826","status.workspaceTrust.792578d3fd95b6065d6d8ae2a89fbc3b","status.workspaceTrust.1683745236153","status.workspaceTrust.1683747443194","status.workspaceTrust.479a2dc2d762bac36ddc9fe30dc829d8","status.workspaceTrust.1683821691481","status.workspaceTrust.9a3f771e16523c10fa7be0fa527356f2","status.workspaceTrust.946b38b451c51d1a111a6f5c709829be","status.workspaceTrust.1684513368654","status.workspaceTrust.1684860275355","status.workspaceTrust.1684860309928","status.workspaceTrust.df1b293e7a58cba5ac166f3c0d6628b1","status.workspaceTrust.1685120832238","status.workspaceTrust.1685471798875","status.workspaceTrust.1685646851660","status.workspaceTrust.1686782945893","status.workspaceTrust.1686844164048","status.workspaceTrust.1686844236459","status.workspaceTrust.1687548233814","status.workspaceTrust.1688590479816","status.workspaceTrust.1688661334675","status.workspaceTrust.1688662406402","status.workspaceTrust.1688743683250","status.workspaceTrust.1689284131518","status.workspaceTrust.1689876767575","status.workspaceTrust.1690318164032","status.workspaceTrust.24eff538aa5bf14dbf9070f56825818a","status.workspaceTrust.6bb73f2767ab341e132912cc857d59fb","status.workspaceTrust.2c5d7b00e37cc9ec80e7fcc0e8883c08","status.workspaceTrust.ae69787120d198b4195925d40c3e473f","status.workspaceTrust.1697856322650","status.workspaceTrust.a3b02c8b48d5b154bf77ea4e1fd0fe4a","status.workspaceTrust.1699337263743","status.workspaceTrust.1699381137236","status.workspaceTrust.1699386069684","status.workspaceTrust.1699386076717","status.workspaceTrust.1700241360943","status.workspaceTrust.b604af1c3eb3cac1719eacbd69d97bbc","status.workspaceTrust.f1127d89662dd54c3047ec10c97a59c2","status.workspaceTrust.1700697665941","status.workspaceTrust.614d55e5665641b3ed3e8602cdf7baa7","status.workspaceTrust.4b6112db7b82c4d4cbfdd980ffe00a55","status.workspaceTrust.b78734a0c49abf228ed6379eb3ca9b75","status.workspaceTrust.1707531324494","status.workspaceTrust.1710060702318","status.workspaceTrust.1710118326879","status.workspaceTrust.fbd0a478264b8efaead22bad77d87b90","status.workspaceTrust.6a3b44ad3eeaf330738ce71cf7c89cf0","status.workspaceTrust.d2087ef47262f12378c0cf37c2427eac","status.workspaceTrust.ad96671d9d42124ceaaf71b7ad9c162c","status.workspaceTrust.716c7a4a7388ed4c9dfa41266964be7e","status.workspaceTrust.94bdf853f3170d416fce14bbd8886202","status.workspaceTrust.2a005943754981caf96c8187912ca365","status.workspaceTrust.d2d0bf2d5f5e868ab7c1597f3030f223","status.workspaceTrust.8a081fd9259b41015a736620479c9ab1"]'
+workbench.telemetryOptOutShown: "true"
+workbench.view.debug.state.hidden: '[{"id":"workbench.debug.variablesView","isHidden":false},{"id":"workbench.debug.watchExpressionsView","isHidden":false},{"id":"workbench.debug.callStackView","isHidden":false},{"id":"workbench.debug.loadedScriptsView","isHidden":false},{"id":"workbench.debug.breakPointsView","isHidden":false},{"id":"workbench.debug.welcome","isHidden":false},{"id":"jsBrowserBreakpoints","isHidden":false},{"id":"jsExcludedCallers","isHidden":false},{"id":"CppSshTargetsView","isHidden":false},{"id":"jsDebugNetworkTree","isHidden":false}]'
+workbench.view.extension.cmake__viewContainer.state.hidden: '[{"id":"cmake.outline","isHidden":false}]'
+workbench.view.extension.codegpt-sidebar-view.state.hidden: '[{"id":"codegpt-sidebar","isHidden":false}]'
+workbench.view.extension.codeium.state.hidden: '[{"id":"codeium.chatPanelView","isHidden":false}]'
+workbench.view.extension.containersView.state.hidden: '[{"id":"vscode-containers.views.containers","isHidden":false},{"id":"vscode-containers.views.images","isHidden":false},{"id":"vscode-containers.views.registries","isHidden":false},{"id":"vscode-containers.views.networks","isHidden":false},{"id":"vscode-containers.views.volumes","isHidden":false},{"id":"vscode-containers.views.dockerContexts","isHidden":false},{"id":"vscode-containers.views.help","isHidden":false}]'
+workbench.view.extension.dockerView.state.hidden: '[{"id":"dockerContainers","isHidden":false},{"id":"dockerImages","isHidden":false},{"id":"dockerRegistries","isHidden":false},{"id":"dockerNetworks","isHidden":false},{"id":"dockerVolumes","isHidden":false},{"id":"vscode-docker.views.dockerContexts","isHidden":false},{"id":"vscode-docker.views.help","isHidden":false}]'
+workbench.view.extension.flutter.state.hidden: '[{"id":"dartFlutterOutline","isHidden":false}]'
+workbench.view.extension.fountain-view.state.hidden: '[{"id":"fountain-outline","isHidden":false},{"id":"fountain-commands","isHidden":false},{"id":"fountain-cheatsheet","isHidden":false},{"id":"fountain-characters","isHidden":false},{"id":"fountain-locations","isHidden":false}]'
+workbench.view.extension.gitlens.state.hidden: '[{"id":"gitlens.views.repositories:gitlens","isHidden":false},{"id":"gitlens.views.fileHistory:gitlens","isHidden":false},{"id":"gitlens.views.lineHistory:gitlens","isHidden":false},{"id":"gitlens.views.compare:gitlens","isHidden":false},{"id":"gitlens.views.search:gitlens","isHidden":false},{"id":"gitlens.views.updates","isHidden":false},{"id":"gitlens.views.welcome","isHidden":false},{"id":"gitlens.views.home","isHidden":true},{"id":"gitlens.views.contributors","isHidden":false},{"id":"gitlens.views.workspaces","isHidden":true},{"id":"gitlens.views.account","isHidden":false},{"id":"gitlens.views.drafts","isHidden":true},{"id":"gitlens.views.launchpad","isHidden":false},{"id":"gitlens.views.graph","isHidden":false}]'
+workbench.view.extension.gitlensInspect.state.hidden: '[{"id":"gitlens.views.commitDetails","isHidden":false},{"id":"gitlens.views.lineHistory","isHidden":false},{"id":"gitlens.views.fileHistory","isHidden":false},{"id":"gitlens.views.timeline","isHidden":false},{"id":"gitlens.views.searchAndCompare","isHidden":false},{"id":"gitlens.views.pullRequest","isHidden":false}]'
+workbench.view.extension.gitlensPanel.state.hidden: '[{"id":"gitlens.views.timeline","isHidden":false},{"id":"gitlens.views.graph","isHidden":false},{"id":"gitlens.views.graphDetails","isHidden":false}]'
+workbench.view.extension.jupyter-variables.state.hidden: '[{"id":"jupyterViewVariables","isHidden":false}]'
+workbench.view.extension.jupyter.state.hidden: '[{"id":"cell-tag","isHidden":false}]'
+workbench.view.extension.latex-workshop-activitybar.state.hidden:
+  '[{"id":"latex-workshop-commands","isHidden":false},{"id":"latex-workshop-structure","isHidden":false},{"id":"latex-workshop-snippet-view","isHidden":false}]'
+workbench.view.extension.liveshare.state.hidden: '[{"id":"liveshare.session","isHidden":false},{"id":"liveshare.contacts","isHidden":false},{"id":"liveshare.plannedSessions","isHidden":false},{"id":"liveshare.help","isHidden":false},{"id":"liveshare.devtools","isHidden":false}]'
+workbench.view.extension.PowerShell.state.hidden: '[{"id":"PowerShellCommands","isHidden":false}]'
+workbench.view.extension.PowerShellCommandExplorer.state.hidden: '[{"id":"PowerShellCommands","isHidden":false}]'
+workbench.view.extension.references-view.state.hidden: '[{"id":"references-view.tree","isHidden":false}]'
+workbench.view.extension.test.state.hidden: '[{"id":"workbench.view.testing","isHidden":false},{"id":"dartTestTree","isHidden":false},{"id":"python_tests","isHidden":false},{"id":"workbench.panel.output","isHidden":false},{"id":"go.test.profile","isHidden":false},{"id":"workbench.view.testCoverage","isHidden":false}]'
+workbench.view.extensions.state.hidden: '[{"id":"extensions.popularExtensionsList","isHidden":false},{"id":"extensions.enabledExtensionList","isHidden":false},{"id":"extensions.disabledExtensionList","isHidden":false},{"id":"extensions.recommendedList","isHidden":false},{"id":"extensions.listView","isHidden":false},{"id":"extensions.enabledExtensionList2","isHidden":false},{"id":"extensions.workspaceRecommendedList","isHidden":false},{"id":"extensions.vscode-local.default","isHidden":false},{"id":"extensions.otherrecommendedList","isHidden":false},{"id":"extensions.disabledExtensionList2","isHidden":false},{"id":"extensions.builtInExtensionsList","isHidden":false},{"id":"extensions.builtInBasicsExtensionsList","isHidden":false},{"id":"extensions.builtInThemesExtensionsList","isHidden":false},{"id":"extensions.vscode-local.installed","isHidden":false},{"id":"extensions.vscode-local.outdated","isHidden":false},{"id":"workbench.views.extensions.installed.empty","isHidden":false},{"id":"workbench.views.extensions.installed","isHidden":false},{"id":"workbench.views.extensions.workspaceRecommendations","isHidden":false},{"id":"workbench.views.extensions.popular","isHidden":false},{"id":"workbench.views.extensions.otherRecommendations","isHidden":false},{"id":"workbench.views.extensions.enabled","isHidden":true},{"id":"workbench.views.extensions.disabled","isHidden":true},{"id":"workbench.views.extensions.marketplace","isHidden":false},{"id":"workbench.views.extensions.searchInstalled","isHidden":false},{"id":"workbench.views.extensions.searchEnabled","isHidden":false},{"id":"workbench.views.extensions.searchDisabled","isHidden":false},{"id":"workbench.views.extensions.searchOutdated","isHidden":false},{"id":"workbench.views.extensions.searchBuiltin","isHidden":false},{"id":"workbench.views.extensions.searchTrustRequired","isHidden":false},{"id":"workbench.views.extensions.builtinFeatureExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinThemeExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinProgrammingLanguageExtensions","isHidden":false},{"id":"workbench.views.extensions.trustRequiredOnStartExtensions","isHidden":false},{"id":"workbench.views.extensions.trustRequiredOnDemandExtensions","isHidden":false},{"id":"workbench.views.extensions.searchWorkspaceUnsupported","isHidden":false},{"id":"workbench.views.extensions.untrustedUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.local.installed.empty","isHidden":false},{"id":"workbench.views.extensions.local.installed","isHidden":false},{"id":"workbench.views.extensions.remote.installed.empty","isHidden":false},{"id":"workbench.views.extensions.remote.installed","isHidden":false},{"id":"workbench.views.extensions.deprecatedExtensions","isHidden":false},{"id":"workbench.views.extensions.searchRecentlyUpdated","isHidden":false},{"id":"workbench.views.extensions.marketplaceAccess","isHidden":false},{"id":"workbench.views.mcp.installed","isHidden":false},{"id":"workbench.views.mcp.default.marketplace","isHidden":false},{"id":"workbench.views.mcp.default.welcomeView","isHidden":false},{"id":"workbench.views.agentPlugins.installed","isHidden":false},{"id":"workbench.views.agentPlugins.default.marketplace","isHidden":true},{"id":"workbench.views.extensions.restartRequired","isHidden":false},{"id":"workbench.views.agentPlugins.marketplace","isHidden":false},{"id":"workbench.views.mcp.marketplace","isHidden":false},{"id":"workbench.views.mcp.welcomeView","isHidden":false}]'
+workbench.view.remote.state.hidden: '[{"id":"targetsWsl","isHidden":false},{"id":"~remote.helpPanel","isHidden":false},{"id":"targetsContainers","isHidden":false},{"id":"detailsContainers","isHidden":false},{"id":"devVolumes","isHidden":false}]'
+workbench.view.search.state.hidden: '[{"id":"workbench.view.search","isHidden":false}]'
+workbench.view.sync.state.hidden: '[{"id":"workbench.views.sync.merges","isHidden":false},{"id":"workbench.views.sync.remoteActivity","isHidden":false},{"id":"workbench.views.sync.machines","isHidden":false},{"id":"workbench.views.sync.localActivity","isHidden":true},{"id":"workbench.views.sync.troubleshoot","isHidden":true}]'
+workbench.views.extensions.installed.size: "56"
+workbench.welcomePage.extensionMetadata.github.copilot: '{"title":"GitHub
+  Copilot","description":"Your AI pair
+  programmer","imagePath":"https://github.gallerycdn.vsassets.io/extensions/github/copilot/1.116.440/1695738777330/Microsoft.VisualStudio.Services.Icons.Default","date":1695752662826}'
+workbench.welcomePage.hiddenCategories: '["github.copilot"]'
+workbench.welcomePage.walkthroughMetadata: '[["ms-vscode.cpptools#cppWelcome",{"firstSeen":1626970537310,"stepIDs":["verify.compiler.mac","verify.compiler.linux","verify.compiler.windows","open.project","setup.intellisense","run.project.mac","run.project.linux","run.project.windows","install.cmake.tools","watch.tutorials"],"manaullyOpened":false}],["ms-python.python#pythonWelcome",{"firstSeen":1628270016379,"stepIDs":["python.installPythonWin","python.installPythonMac","python.installPythonLinux","python.selectInterpreter","python.runAndDebug","python.runAndDebugMacOS","python.learnMore"],"manaullyOpened":false}],["ms-python.python#pythonDataScienceWelcome",{"firstSeen":1628270016379,"stepIDs":["python.installPython","python.openFolderMac","python.openFolder","python.createNewNotebook","python.openInteractiveWindow","python.dataScienceLearnMore"],"manaullyOpened":false}],["ms-azuretools.vscode-docker#dockerStart",{"firstSeen":1633187709133,"stepIDs":["scaffold","buildImage","runContainer","dockerExplorer","pushImage","azDeploy","learn"],"manaullyOpened":false}],["ms-vscode-remote.remote-wsl#wslWelcome",{"firstSeen":1639788855409,"stepIDs":["explore.commands","open.wslwindow","create.project","open.project","linux.environment","install.tools","run.debug","come.back"],"manaullyOpened":false}],["ms-python.python#pythonWelcomeWithDS",{"firstSeen":1644086279637,"stepIDs":["python.installPythonWin","python.installPythonMac","python.installPythonLinux","python.createPythonFile","python.selectInterpreter","python.runAndDebug","python.learnMoreWithDS"],"manaullyOpened":false}],["ms-toolsai.jupyter#jupyterWelcome",{"firstSeen":1644086279637,"stepIDs":["jupyter.createNewNotebook","jupyter.selectKernel","jupyter.exploreAndDebug","jupyter.dataScienceLearnMore"],"manaullyOpened":false}],["eamodio.gitlens#gitlens.welcome",{"firstSeen":1646162363210,"stepIDs":["gitlens.welcome.experience","gitlens.welcome.settings","gitlens.welcome.currentLineBlame","gitlens.welcome.gitCodeLens","gitlens.welcome.revisionHistory","gitlens.welcome.fileAnnotations","gitlens.welcome.gitSideBarViews","gitlens.welcome.hostingServiceIntegrations","gitlens.welcome.gitCommandPalette","gitlens.welcome.interactiveRebaseEditor","gitlens.welcome.terminal","gitlens.welcome.premium"],"manaullyOpened":false}],["eamodio.gitlens#gitlens.premium",{"firstSeen":1646162363210,"stepIDs":["gitlens.premium.intro.tryNow","gitlens.premium.intro.signIn","gitlens.premium.intro","gitlens.premium.visualFileHistory","gitlens.premium.worktrees","gitlens.premium.comingSoon","gitlens.premium.tryNow","gitlens.premium.signIn"],"manaullyOpened":false}],["eamodio.gitlens#gitlens.plus",{"firstSeen":1647485191428,"stepIDs":["gitlens.plus.intro.tryNow","gitlens.plus.intro.signIn","gitlens.plus.intro","gitlens.plus.visualFileHistory","gitlens.plus.worktrees","gitlens.plus.comingSoon","gitlens.plus.tryNow","gitlens.plus.signIn"],"manaullyOpened":false}],["ms-vscode.powershell#PowerShell",{"firstSeen":1662149966258,"stepIDs":["version","file","sessions","ise","terminal","explore","feedback"],"manaullyOpened":false}],["vscode.typescript-language-features#nodejsWelcome",{"firstSeen":1673061096462,"stepIDs":["walkthroughs.nodejsWelcome.downloadNode.forMacOrWindows","walkthroughs.nodejsWelcome.downloadNode.forLinux","walkthroughs.nodejsWelcome.makeJsFile","walkthroughs.nodejsWelcome.debugJsFile","walkthroughs.nodejsWelcome.learnMoreAboutJs"],"manaullyOpened":false}],["vscode.typescript-language-features#tempNodejsWelcome",{"firstSeen":1683744316913,"stepIDs":[],"manaullyOpened":false}],["ms-vscode-remote.remote-wsl#wslWalkthrough",{"firstSeen":1683744316914,"stepIDs":["explore.commands","open.wslwindow","create.project","open.project","linux.environment","install.tools","run.debug","come.back"],"manaullyOpened":false}],["ms-python.python#pythonWelcome2",{"firstSeen":1689284132900,"stepIDs":["python.createPythonFolder","python.createPythonFile","python.installPythonWin8","python.installPythonMac","python.installPythonLinux","python.createEnvironment2","python.runAndDebug","python.learnMoreWithDS2"],"manaullyOpened":false}],["GitHub.copilot#copilotWelcome",{"firstSeen":1695752666837,"stepIDs":["copilot.signin","copilot.firstsuggest","copilot.realfiles.openrecent","copilot.realfiles.quickopen","copilot.iterate","copilot.creativity"],"manaullyOpened":false}],["eamodio.gitlens#welcome",{"firstSeen":1723397929743,"stepIDs":["get-started","core-features","pro-features","pro-trial","pro-upgrade","pro-reactivate","pro-paid","visualize","launchpad","code-collab","integrations","more"],"manaullyOpened":false}],["DanielSanMedium.dscodegpt#codegpt-onboarding",{"firstSeen":1736292860940,"stepIDs":["create-account","setup-preferred-connection","explore-chat","try-autocomplete","use-inline-edit","explore-studio"],"manaullyOpened":false}],["ms-azuretools.vscode-containers#containersStart",{"firstSeen":1750902879541,"stepIDs":["chooseContainerRuntime","openFolder","openFolderMac","scaffold","buildImage","runContainer","containerExplorer","pushImage","azDeploy","learn"],"manaullyOpened":false}]]'
+zokugun.cron-tasks: '{"version":"0.2.1"}'
