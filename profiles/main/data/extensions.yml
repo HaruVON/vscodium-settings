@@ -1,16 +1,17 @@
-builtin:
-  disabled:
-    - GitHub.copilot-chat
 disabled:
   - id: esbenp.prettier-vscode
     uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
 enabled:
-  - id: Codeium.codeium
-    uuid: acab4f40-b6db-42ec-bcd1-01802cbdd988
+  - id: 3timeslazy.vscodium-devpodcontainers
+    uuid: 5929ab48-ba85-4b0a-9905-6419a43d4cf4
+  - id: Anksio.vice-city-feels
+    uuid: 60ee288c-c05d-4f85-aa88-96c74268c44d
+  - id: bscan.raku-navigator
+    uuid: fc1ca271-4cf5-4681-aef6-f3fa63a76cf9
+  - id: ciao-lang.ciao-prolog-vsc
+    uuid: aeec38b8-c06d-4f0e-b284-db87c3e31dfc
   - id: cschlosser.doxdocgen
     uuid: da7e26d5-d57c-4742-ab47-d77fb189e195
-  - id: DanielSanMedium.dscodegpt
-    uuid: eb8db386-b7d8-4961-8048-b188d778a1e9
   - id: Dart-Code.dart-code
     uuid: f57f68ea-9ee8-42b5-9a97-041d3e4278c4
   - id: Dart-Code.flutter
@@ -23,6 +24,8 @@ enabled:
     uuid: aa98a064-0f79-4961-a4b7-78df16d547ee
   - id: eamodio.gitlens
     uuid: 4de763bd-505d-4978-9575-2b7696ecf94e
+  - id: evzen-wybitul.magic-racket
+    uuid: d8508201-6c73-4091-b44a-f974e541649e
   - id: galarius.vscode-opencl
     uuid: f8e30ad2-18ea-4976-834f-f6878b4e2e02
   - id: golang.go
@@ -34,17 +37,19 @@ enabled:
   - id: haskell.haskell
     uuid: aead9e6c-3483-4ce4-a09f-843e25ce696f
   - id: haskell.language-haskell
-    uuid: 1211174a-020e-4238-8d88-c3e17b484a05
+    uuid: 7dd98d3a-f36e-41f1-8c25-b19a82be234e
   - id: humao.rest-client
     uuid: dda49fd5-1f3b-4d25-bf61-4fc41905ede5
   - id: James-Yu.latex-workshop
     uuid: 61d03280-3919-4dd1-bce1-178ca21fdeaf
+  - id: jeanp413.open-remote-ssh
+    uuid: 9fc16cea-08e2-4ae5-bf75-224004d722ff
   - id: jeff-hykin.better-cpp-syntax
     uuid: 73767f91-7dcb-43cb-90b3-596d073eea1f
   - id: justusadam.language-haskell
     uuid: 270c1d3b-a657-446f-83b8-ab32fd7af006
-  - id: karyfoundation.racket
-    uuid: c8cc4a79-76f8-4bac-9e49-1162045fb5e7
+  - id: llvm-vs-code-extensions.vscode-clangd
+    uuid: 103154cb-b81d-4e1b-8281-c5f4fa563d37
   - id: ms-azuretools.vscode-containers
     uuid: 2cd1d691-3d69-4d2d-ae39-fda4bc4cfd3d
   - id: ms-azuretools.vscode-docker
@@ -57,8 +62,6 @@ enabled:
     uuid: 4ad0ce32-ff3f-49f0-83b5-93e5dc00cfff
   - id: ms-python.python
     uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
-  - id: ms-python.vscode-pylance
-    uuid: 364d2426-116a-433a-a5d8-a5098dc3afbd
   - id: ms-toolsai.jupyter
     uuid: 6c2f1801-1e7f-45b2-9b5c-7782f1e076e8
   - id: ms-toolsai.jupyter-keymap
@@ -69,42 +72,24 @@ enabled:
     uuid: ab4fb32a-befb-4102-adf9-1652d0cd6a5e
   - id: ms-toolsai.vscode-jupyter-slideshow
     uuid: e153ca70-b543-4865-b4c5-b31d34185948
-  - id: ms-vscode-remote.remote-containers
-    uuid: 93ce222b-5f6f-49b7-9ab1-a0463c6238df
-  - id: ms-vscode-remote.remote-wsl
-    uuid: f0c5397b-d357-4197-99f0-cb4202f22818
   - id: ms-vscode.cmake-tools
     uuid: 7c889349-8749-43d4-8b5e-08939936d7f4
-  - id: ms-vscode.cpp-devtools
-    uuid: a71e0b52-0402-498f-a148-d2e344390f14
-  - id: ms-vscode.cpptools
-    uuid: 690b692e-e8a9-493f-b802-8089d50ac1b2
-  - id: ms-vscode.cpptools-extension-pack
-    uuid: 3957b2f6-f086-49b5-a7b4-5da772123130
   - id: ms-vscode.cpptools-themes
     uuid: 99b17261-8f6e-45f0-9ad5-a69c6f509a4f
   - id: ms-vscode.powershell
     uuid: 40d39ce9-c381-47a0-80c8-a6661f731eab
   - id: ms-vscode.vscode-typescript-next
     uuid: 15305aca-2588-4ca0-8147-ab2c64730b82
-  - id: ms-vsliveshare.vsliveshare
-    uuid: 5a6dc0d5-dc02-4121-8e24-cad33a2ff0af
   - id: piersdeseilligny.betterfountain
     uuid: b19a8c92-4f0d-4897-a655-0f70cf7ccbb9
-  - id: rebornix.prolog
-    uuid: 556c68fb-1100-4aad-8783-aa6de742e1ba
   - id: redhat.vscode-xml
     uuid: 6703768d-d42f-474e-9f6e-5f288d53f6e8
-  - id: scriplit.perl6-lsp
-    uuid: abbc07f1-0aa9-4c8a-a5a6-154a1a1fe534
   - id: shd101wyy.markdown-preview-enhanced
     uuid: 3b1db1fc-c7f7-4bd6-9fa4-b499dfa99a8a
   - id: teabyii.ayu
     uuid: 5178733e-4b02-4829-95c5-1ce970847c23
   - id: TheNuProjectContributors.vscode-nushell-lang
     uuid: 6862b2a7-3c9b-4bae-b48f-c697c243e6e5
-  - id: tinkertrain.theme-panda
-    uuid: 9764fb1f-aa45-4e65-a18e-705b3b00761c
   - id: twxs.cmake
     uuid: 2be7cf14-2603-402e-9771-fd79df83cdf8
   - id: usernamehw.errorlens
@@ -113,7 +98,5 @@ enabled:
     uuid: 9ccc1dd7-7ec4-4a46-bd4f-7d7b8b9d322a
   - id: XadillaX.viml
     uuid: ecc7bbf7-9d61-46c8-b47e-a2a27c38b38d
-  - id: yummygum.city-lights-theme
-    uuid: 9af62ee3-0097-4b7b-891a-4a94eb3e1009
   - id: zokugun.cron-tasks
     uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb
