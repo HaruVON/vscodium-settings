@@ -1,0 +1,42 @@
+builtin:
+  disabled:
+    - GitHub.copilot-chat
+    - ms-vscode.js-debug-companion
+disabled: []
+enabled:
+  - id: bierner.markdown-preview-github-styles
+    uuid: 5cbdf58a-694a-4aba-af08-61d00842eb03
+  - id: Continue.continue
+    uuid: c8d442ab-9ee3-4891-a5b0-994f14f54c94
+  - id: deibit.devdocs
+    uuid: 739d6afd-0fa9-4553-937e-bc61e3a044d1
+  - id: garlicbreadcleric.pandoc-markdown-syntax
+    uuid: 44970e13-58d1-4e41-99ec-c6d3fd43bb3e
+  - id: golang.go
+    uuid: d6f6cfea-4b6f-41f4-b571-6ad2ab7918da
+  - id: haskell.haskell
+    uuid: aead9e6c-3483-4ce4-a09f-843e25ce696f
+  - id: haskell.language-haskell
+    uuid: 7dd98d3a-f36e-41f1-8c25-b19a82be234e
+  - id: justusadam.language-haskell
+    uuid: 270c1d3b-a657-446f-83b8-ab32fd7af006
+  - id: LaurentTreguier.vscode-simple-icons
+    uuid: 23d65a8c-fcd4-4897-86da-7fe55088e2c6
+  - id: ms-python.black-formatter
+    uuid: 859e640c-c157-47da-8699-9080b81c8371
+  - id: ms-python.debugpy
+    uuid: 4bd5d2c9-9d65-401a-b0b2-7498d9f17615
+  - id: ms-python.isort
+    uuid: 4ad0ce32-ff3f-49f0-83b5-93e5dc00cfff
+  - id: ms-python.python
+    uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
+  - id: redhat.vscode-xml
+    uuid: 6703768d-d42f-474e-9f6e-5f288d53f6e8
+  - id: redhat.vscode-yaml
+    uuid: 2061917f-f76a-458a-8da9-f162de22b97e
+  - id: TheNuProjectContributors.vscode-nushell-lang
+    uuid: 6862b2a7-3c9b-4bae-b48f-c697c243e6e5
+  - id: usernamehw.errorlens
+    uuid: 9d8c32ab-354c-4daf-a9bf-20b633734435
+  - id: zokugun.cron-tasks
+    uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb
